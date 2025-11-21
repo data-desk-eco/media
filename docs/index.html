@@ -70,8 +70,7 @@
         const date = new Date(m.published).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
         return html`<li style="margin: 1rem 0;">
           <div><a href="${m.url}" target="_blank">${m.title}</a></div>
-          <div style="color: #888; font-size: 0.9em;">${m.source}</div>
-          <div style="color: #888; font-size: 0.9em;">${date}</div>
+          <div style="color: #888; font-size: 0.9em;">${m.source} / ${date}</div>
         </li>`;
       })}
     </ul>`);
