@@ -9,6 +9,62 @@
   <script id="main" type="module">
     const mentions = await FileAttachment("../data/mentions.json").json();
 
+    // Process data for the chart - group by quarter
+    const mentionsByQuarter = d3.rollup(
+      mentions,
+      v => v.length,
+      d => {
+        const date = new Date(d.published);
+        const quarter = Math.floor(date.getMonth() / 3);
+        return new Date(date.getFullYear(), quarter * 3, 1);
+      }
+    );
+
+    const chartData = Array.from(mentionsByQuarter, ([date, count]) => ({
+      date,
+      count
+    })).sort((a, b) => a.date - b.date);
+
+    // Display the bar chart
+    display(Plot.plot({
+      height: 150,
+      marginLeft: 50,
+      marginBottom: 50,
+      x: {
+        type: "utc",
+        label: "Quarter",
+        tickFormat: (d, i, ticks) => {
+          const quarter = Math.floor(d.getMonth() / 3) + 1;
+          const year = d.getFullYear();
+          const prevYear = i > 0 ? ticks[i - 1].getFullYear() : null;
+
+          if (year === 2022) {
+            return `Q${quarter}`;
+          }
+          if (quarter === 1 || prevYear !== year) {
+            return `Q${quarter}\n${year}`;
+          }
+          return `Q${quarter}`;
+        }
+      },
+      y: {
+        label: "Number of mentions",
+        grid: true
+      },
+      marks: [
+        Plot.rectY(chartData, {
+          x: "date",
+          y: "count",
+          interval: d3.utcMonth.every(3),
+          fill: "var(--theme-foreground)",
+          tip: true
+        }),
+        Plot.ruleY([0])
+      ]
+    }));
+
+    display(html`<h2>All mentions</h2>`);
+
     display(html`<ul style="list-style: none; padding-left: 0;">
       ${mentions.map(m => {
         const date = new Date(m.published).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });

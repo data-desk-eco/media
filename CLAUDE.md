@@ -20,3 +20,4 @@ Your output will be redirected directly to a JSON file. Output ONLY raw JSON - n
 - Chronological order (newest first)
 - Maximum 50 entries (trim oldest if needed)
 - Each entry: title, url, source, published, added (ISO timestamp)
+- Clean titles: Remove publication name from end of title if it duplicates the source field (e.g., "Article Title - Mongabay" → "Article Title" when source is "Mongabay")

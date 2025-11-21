@@ -10,5 +10,8 @@
   "scripts": {
     "preview": "notebooks preview --root docs --template template.html",
     "build": "notebooks build --root docs --template template.html -- docs/*.html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
   }
 }
