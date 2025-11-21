@@ -1,26 +1,35 @@
-# Data Desk Research Index
+# Data Desk Media Mentions
 
-This repository serves two purposes:
-1. The central index for all Data Desk research notebooks at [`https://research.datadesk.eco/`](https://research.datadesk.eco/)
-2. A template for creating new research notebooks
+Automated tracking of news mentions and media coverage of Data Desk research.
 
-## Creating a new research notebook
+## Overview
 
-1. Use this repository as a template to create a new repo (the name becomes the URL)
-2. Go to "Settings" → "Pages" → "Build and deployment" and select "GitHub Actions"
-3. Clone your new repository and install dependencies: `yarn` (or `npm install`)
-4. Run preview: `yarn preview`
-5. Edit `docs/index.html` in your text editor or [Observable Desktop](https://observablehq.com/notebook-kit/desktop)
-6. Commit and push - GitHub Actions will automatically deploy to `https://research.datadesk.eco/[repo-name]`
+This repository tracks media mentions of Data Desk's investigative research on the global oil and gas industry. A GitHub Action runs weekly to search for new mentions and update the list automatically.
 
-## How the index works
+## How It Works
 
-- A GitHub Action runs daily (or on push) to fetch all public repos with Pages enabled
-- The `projects.json` file is generated with repo names, descriptions, and last-updated dates
-- Projects are displayed sorted by most recently updated
-- Built using [Observable Notebook Kit](https://observablehq.com/notebook-kit/kit) and deployed via GitHub Actions
+**Weekly automated workflow:**
+1. Searches Google News RSS for "Data Desk"
+2. Claude reviews results against existing list
+3. Updates `data/mentions.json` with new entries
+4. Commits changes and deploys Observable notebook
 
-<figure>
-  <img width="1264" height="912" alt="Editing in Observable Desktop" src="https://github.com/user-attachments/assets/a4ba7acc-7251-44f5-a0b7-b4892b32448d" />
-  <caption>Editing this notebook in Observable Desktop</caption>
-</figure>
+**Schedule:** Every Monday at noon UTC
+
+## Files
+
+- `data/mentions.json` - List of all tracked media mentions
+- `mentions.md` - Formatted list with descriptions and images
+- `scripts/search.sh` - Google News RSS search script
+- `Makefile` - Orchestration
+- `.github/workflows/media-mentions.yml` - GitHub Action
+
+## Local Development
+
+```bash
+make        # Search and update mentions
+```
+
+## Observable Notebook
+
+The `docs/` directory contains an Observable notebook that displays all Data Desk research projects. The notebook automatically rebuilds when mentions are updated.

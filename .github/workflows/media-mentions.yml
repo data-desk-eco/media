@@ -1,0 +1,80 @@
+name: Media Mentions Tracker
+
+on:
+  schedule:
+    - cron: '0 12 * * 1'  # Weekly on Monday at noon UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  track-mentions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Claude Code
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Run media tracker
+        run: |
+          export PATH="$HOME/.local/bin:$PATH"
+          make
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+
+      - name: Commit updated mentions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/mentions.json
+          git diff --staged --quiet || git commit -m "Update media mentions for $(date -u +%Y-%m-%d)"
+          git push
+
+  build-and-deploy:
+    needs: track-mentions
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Generate projects.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api "/orgs/data-desk-eco/repos" --paginate -q \
+            '[.[] | select(.has_pages and .name != "research.datadesk.eco" and .private == false and .description != null and .description != "") | {name: .name, description: .description, url: "https://research.datadesk.eco/\(.name)/", repo_url: .html_url, pushed_at: .pushed_at}] | sort_by(.pushed_at) | reverse' \
+            > docs/projects.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+
+      - run: yarn --frozen-lockfile
+      - run: yarn build
+
+      - name: Copy projects.json and favicon to dist
+        run: |
+          cp docs/projects.json docs/.observable/dist/
+          cp favicon.ico docs/.observable/dist/
+
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.observable/dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
