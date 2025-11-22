@@ -1,7 +1,15 @@
 # Media Mentions Tracker
 
 **CRITICAL OUTPUT REQUIREMENT:**
-Your output will be redirected directly to a JSON file. Output ONLY raw JSON - no markdown, no code blocks, no explanations, no thinking, no commentary whatsoever. If you output anything other than valid JSON, the system will break.
+Your output will be redirected directly to a JSON file. Output ONLY raw JSON starting with `[` and ending with `]`.
+
+DO NOT include:
+- Any explanatory text before or after the JSON
+- Markdown code blocks or backticks
+- Phrases like "Here's the JSON" or "Perfect!"
+- Any commentary whatsoever
+
+Your FIRST character must be `[` and your LAST character must be `]`. If you output anything else, the system will break.
 
 **Your task:**
 1. Read `data/mentions.json` - existing tracked mentions
