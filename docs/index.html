@@ -6,8 +6,10 @@
 
     Reports featuring Data Desk research and analysis.
   </script>
+  <script id="mentions" output="mentions" type="application/sql" database="../data/data.duckdb" hidden>
+    SELECT * FROM mentions ORDER BY published DESC
+  </script>
   <script id="main" type="module">
-    const mentions = await FileAttachment("../data/mentions.json").json();
 
     // Process data for the chart - group by quarter
     const mentionsByQuarter = d3.rollup(

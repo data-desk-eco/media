@@ -15,6 +15,8 @@ data:
 	@if jq empty data/mentions.json.tmp 2>/dev/null; then \
 		mv data/mentions.json.tmp data/mentions.json; \
 		echo "Updated mentions.json"; \
+		cat data/mentions.json | duckdb data/data.duckdb "CREATE OR REPLACE TABLE mentions AS SELECT * FROM read_json('/dev/stdin')"; \
+		echo "Updated DuckDB database"; \
 	else \
 		rm -f data/mentions.json.tmp; \
 		echo "Failed: invalid JSON output"; \
