@@ -1,23 +1,12 @@
 # Media Mentions Tracker
 
-**CRITICAL OUTPUT REQUIREMENT:**
-Your output will be redirected directly to a JSON file. Output ONLY raw JSON starting with `[` and ending with `]`.
-
-DO NOT include:
-- Any explanatory text before or after the JSON
-- Markdown code blocks or backticks
-- Phrases like "Here's the JSON" or "Perfect!"
-- Any commentary whatsoever
-
-Your FIRST character must be `[` and your LAST character must be `]`. If you output anything else, the system will break.
-
 **Your task:**
 1. Read `data/mentions.json` - existing tracked mentions
 2. Read `data/search-results.json` - new search results
 3. Compare URLs to identify genuinely NEW mentions
-4. Output updated JSON array with new entries at the top
+4. Write the updated mentions list to `data/mentions.json` using the Write tool
 
-**OUTPUT FORMAT:** Only output this exact structure - nothing else:
+**Output format for data/mentions.json:**
 [
   {"title": "...", "url": "...", "source": "...", "published": "...", "added": "..."},
   ...
