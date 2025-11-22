@@ -1,21 +1,26 @@
-include .env
+.PHONY: build preview data clean
 
-CLAUDE := claude
+build:
+	yarn build
 
-all: data/mentions.json
+preview:
+	yarn preview
 
-data/mentions.json: $(RAW_DATA) CLAUDE.md
-	@cat CLAUDE.md | $(CLAUDE) --print --dangerously-skip-permissions > $@.tmp
-	@if jq empty $@.tmp 2>/dev/null; then \
-		mv $@.tmp $@; \
+data:
+	@mkdir -p data
+	@echo "Searching for Data Desk mentions..."
+	@scripts/search.sh
+	@echo "Processing mentions with Claude..."
+	@claude -p PROMPT.md --print --dangerously-skip-permissions > data/mentions.json.tmp
+	@if jq empty data/mentions.json.tmp 2>/dev/null; then \
+		mv data/mentions.json.tmp data/mentions.json; \
 		echo "Updated mentions.json"; \
 	else \
-		rm -f $@.tmp; \
+		rm -f data/mentions.json.tmp; \
 		echo "Failed: invalid JSON output"; \
+		exit 1; \
 	fi
-	@rm -f $(RAW_DATA)
+	@rm -f data/search-results.json
 
-$(RAW_DATA): scripts/search.sh
-	@./$<
-
-.PHONY: all
+clean:
+	rm -rf docs/.observable/dist

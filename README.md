@@ -8,26 +8,30 @@ This repository tracks media mentions of Data Desk's investigative research on t
 
 ## How It Works
 
-**Weekly automated workflow:**
-1. Searches Google News RSS for "Data Desk"
-2. Claude reviews results against existing list
-3. Updates `data/mentions.json` with new entries
-4. Commits changes and deploys Observable notebook
+**Daily automated workflow:**
+1. Downloads shared template files from main repo
+2. Searches Google News RSS for "Data Desk"
+3. Claude reviews results against existing list
+4. Updates `data/mentions.json` with new entries
+5. Commits changes and deploys Observable notebook
 
-**Schedule:** Every Monday at noon UTC
+**Schedule:** Daily at 6am UTC
 
 ## Files
 
 - `data/mentions.json` - List of all tracked media mentions
-- `mentions.md` - Formatted list with descriptions and images
+- `docs/index.html` - Observable notebook source
 - `scripts/search.sh` - Google News RSS search script
-- `Makefile` - Orchestration
-- `.github/workflows/media-mentions.yml` - GitHub Action
+- `PROMPT.md` - Instructions for Claude to process mentions
+- `Makefile` - Build orchestration
+- `.github/workflows/deploy.yml` - GitHub Action (self-updating)
 
 ## Local Development
 
 ```bash
-make        # Search and update mentions
+make data      # Search and update mentions
+make preview   # Preview notebook locally
+make build     # Build notebook for deployment
 ```
 
 ## Observable Notebook
