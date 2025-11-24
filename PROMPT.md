@@ -1,5 +1,7 @@
 # Media Mentions Tracker
 
+**IMPORTANT:** Be quick and efficient. Do not explain your reasoning. Just read the files, process them, and write the output.
+
 **Your task:**
 1. Read `data/mentions.json` - existing tracked mentions
 2. Read `data/search-results.json` - new search results
