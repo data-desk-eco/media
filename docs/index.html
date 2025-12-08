@@ -7,7 +7,7 @@
     Reports featuring Data Desk research and analysis.
   </script>
   <script id="mentions" output="mentions" type="application/sql" database="../data/data.duckdb" hidden>
-    SELECT * FROM mentions ORDER BY published DESC
+    SELECT title, url, source, published, added FROM mentions ORDER BY published DESC
   </script>
   <script id="main" type="module">
 
