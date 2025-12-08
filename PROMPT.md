@@ -1,12 +1,12 @@
 # Media Mentions Tracker
 
-**IMPORTANT:** Be quick and efficient. Do not explain your reasoning. Just read the files, process them, and write the output.
+**IMPORTANT:** Be FAST. This runs in CI with strict time/cost limits. Do not explain reasoning, do not summarize, do not add commentary. Just: read files → compare URLs → write output → done. Target: under 60 seconds.
 
 **Your task:**
-1. Read `data/mentions.json` - existing tracked mentions
+1. Read `data/mentions.json` - existing tracked mentions (PRESERVE ALL of these)
 2. Read `data/search-results.json` - new search results
-3. Compare URLs to identify genuinely NEW mentions
-4. Write the updated mentions list to `data/mentions.json` using the Write tool
+3. Add genuinely NEW mentions from search results (deduplicate by URL)
+4. Write the merged list to `data/mentions.json` using the Write tool
 
 **Output format for data/mentions.json:**
 [
@@ -15,8 +15,9 @@
 ]
 
 **Rules:**
-- Only add genuinely new mentions (deduplicate by URL)
-- Chronological order (newest first)
+- PRESERVE all existing entries from mentions.json (some are manually added)
+- Only add genuinely new mentions from search results (deduplicate by URL)
+- Sort by "added" date descending (newest first)
 - Maximum 50 entries (trim oldest if needed)
 - Each entry: title, url, source, published, added (ISO timestamp)
 - Clean titles: Remove publication name from end of title if it duplicates the source field (e.g., "Article Title - Mongabay" → "Article Title" when source is "Mongabay")
