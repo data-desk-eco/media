@@ -19,7 +19,7 @@
 - Only add genuinely new mentions from search results (deduplicate by URL)
 - Sort by "added" date descending (newest first)
 - Maximum 50 entries (trim oldest if needed)
-- Each entry: title, url, source, published, added (ISO timestamp)
+- Each entry: title, url, source, published (YYYY-MM-DD), added (ISO timestamp)
 - Clean titles: Remove publication name from end of title if it duplicates the source field (e.g., "Article Title - Mongabay" → "Article Title" when source is "Mongabay")
 
 **Exclusions:** Do not include mentions from the following URLs:
