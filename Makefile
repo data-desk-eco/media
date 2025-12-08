@@ -12,16 +12,17 @@ data:
 	@echo "Searching for Data Desk mentions..."
 	@scripts/search.sh
 	@echo "Processing mentions with Claude..."
-	@cp data/mentions.json data/mentions.backup.json 2>/dev/null || true
+	@cp data/discoveries.json data/discoveries.backup.json 2>/dev/null || echo "[]" > data/discoveries.backup.json
 	@claude -p PROMPT.md --print --output-format json --dangerously-skip-permissions --setting-sources user > /dev/null
-	@echo "Updated mentions.json"
-	@if ! python3 -c "import json; json.load(open('data/mentions.json'))"; then \
-		echo "ERROR: Invalid JSON in mentions.json, restoring backup"; \
-		cp data/mentions.backup.json data/mentions.json 2>/dev/null || true; \
+	@echo "Updated discoveries.json"
+	@if ! python3 -c "import json; json.load(open('data/discoveries.json'))"; then \
+		echo "ERROR: Invalid JSON in discoveries.json, restoring backup"; \
+		cp data/discoveries.backup.json data/discoveries.json; \
 	fi
-	@cat data/mentions.json | duckdb data/data.duckdb "CREATE OR REPLACE TABLE mentions AS SELECT * FROM read_json('/dev/stdin')"
+	@echo "Merging curated + discoveries into database..."
+	@duckdb data/data.duckdb < scripts/merge.sql
 	@echo "Updated DuckDB database"
-	@rm -f data/search-results.json data/mentions.backup.json
+	@rm -f data/search-results.json data/discoveries.backup.json
 
 clean:
 	rm -rf docs/.observable/dist

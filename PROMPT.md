@@ -8,11 +8,12 @@ Data Desk (data-desk-eco) investigates environmental/climate issues: oil/gas pra
 
 ## Task
 
-1. Read `data/mentions.json` (existing - PRESERVE ALL)
-2. Read `data/search-results.json` (new Google News results)
-3. Filter new results for relevance (see below)
-4. Add ONLY relevant new entries (dedupe by URL)
-5. Write to `data/mentions.json`
+1. Read `data/curated.json` (hand-curated entries - NEVER modify this file)
+2. Read `data/discoveries.json` (previously discovered entries)
+3. Read `data/search-results.json` (new Google News results)
+4. Filter new results for relevance (see below)
+5. Add ONLY relevant NEW entries to discoveries (dedupe by URL against both curated and discoveries)
+6. Write updated list to `data/discoveries.json`
 
 ## Relevance Filter - CRITICAL
 
@@ -27,16 +28,16 @@ Data Desk (data-desk-eco) investigates environmental/climate issues: oil/gas pra
 
 **INCLUDE** only articles that:
 - Cite Data Desk environmental research
-- Reference our oil/gas/fossil fuel investigations
-- Are from outlets we work with (The Guardian, The Examination, etc.)
+- Reference our oil/gas/fossil fuel/environmental investigations
+- Are from outlets we work with (The Guardian, The Examination, Bloomberg, Reuters, etc.)
 
-**When unsure, EXCLUDE.**
+**When unsure, EXCLUDE.** Better to miss one than add noise.
 
 ## Output Format
 
-Valid JSON array:
+Write valid JSON array to `data/discoveries.json`:
 ```json
 [{"title": "...", "url": "...", "source": "...", "published": "YYYY-MM-DD", "added": "ISO timestamp"}, ...]
 ```
 
-Sort by published date descending. Max 50 entries. Clean titles (remove redundant source suffixes).
+Sort by published date descending.
