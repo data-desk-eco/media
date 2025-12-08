@@ -1,43 +1,29 @@
 # Media Mentions Tracker
 
-**BE FAST.** Target: under 60 seconds. No commentary.
+Be fast. No commentary.
 
 ## Context
 
-Data Desk (data-desk-eco) investigates environmental/climate issues: oil/gas practices, fossil fuel supply chains, pollution, corporate accountability, green financing.
+Data Desk investigates environmental/climate issues: oil/gas, fossil fuels, pollution, corporate accountability, green financing.
 
 ## Task
 
-1. Read `data/curated.json` (hand-curated entries - NEVER modify this file)
-2. Read `data/discoveries.json` (previously discovered entries)
+1. Read `data/curated.json` (never modify)
+2. Read `data/discoveries.json` (your additions)
 3. Read `data/search-results.json` (new Google News results)
-4. Filter new results for relevance (see below)
-5. Add ONLY relevant NEW entries to discoveries (dedupe by URL against both curated and discoveries)
-6. Write updated list to `data/discoveries.json`
+4. Add relevant new articles to discoveries (dedupe by URL)
+5. Write to `data/discoveries.json`
 
-## Relevance Filter - CRITICAL
+## Relevance
 
-**EXCLUDE** (not about Data Desk research):
-- "The Trade Desk" (ad tech company)
-- "Opportunity Desk" (grants website)
-- "CBA Data Desk" / Consumer Bankers
-- NPR "Tiny Desk"
-- Hotel/service/help desk mentions
-- Financial trading desk references
-- Any generic "data" + "desk" coincidence
+**Exclude:** "The Trade Desk", "Opportunity Desk", "CBA Data Desk", "Tiny Desk", hotel/service desks, trading desks, generic "data desk" mentions.
 
-**INCLUDE** only articles that:
-- Cite Data Desk environmental research
-- Reference our oil/gas/fossil fuel/environmental investigations
-- Are from outlets we work with (The Guardian, The Examination, Bloomberg, Reuters, etc.)
+**Include:** Articles citing Data Desk environmental research or from outlets we work with (Guardian, Examination, Bloomberg, Reuters, etc).
 
-**When unsure, EXCLUDE.** Better to miss one than add noise.
+When unsure, exclude.
 
-## Output Format
+## Output
 
-Write valid JSON array to `data/discoveries.json`:
 ```json
 [{"title": "...", "url": "...", "source": "...", "published": "YYYY-MM-DD", "added": "ISO timestamp"}, ...]
 ```
-
-Sort by published date descending.
