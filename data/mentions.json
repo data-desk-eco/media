@@ -1,352 +1,51 @@
-[
-  {
-    "title": "Did Intuit’s SMB Data Tie-Up Quietly Strengthen The Trade Desk’s (TTD) Competitive Moat?",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90TEZBdUlCbmRDbm11a1B5VGIyY0lkdzFUX2J6MHBYd1dwN3JDUER6UTBtZ0owLXBpS3hubFpXSGxvTUJhSEJ0ZUJ0ZkZ2M1c4M2ZDS01fLS1MMnlYaFBIQVFOUjlUb2c3WktoV2Z2MEpJWThDUGlhOQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2025-12-06",
-    "added": "2025-12-08T11:31:17.956548+00:00"
-  },
-  {
-    "title": "CBS NEWS PRESENTS SPECIAL ELECTION DAY 2025 COVERAGE THIS TUESDAY",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb3Y0OVNMSDE0NEpWeWIzdHRJcmFjcnJ4YmhiTWxkaGZPeExpeXVibTFDRVJXWlpUZVE2UVoxOTRSeTdhVmlwQ1U2WkEyUHp4Q25oYmNtMlRQZHR0MWNRdkRscFlRS1RRS211S2dSU0JDM3ctZV9DWTM3ck1qTDRRNWQ1RVZ4YkxTUXpFNnJHejlaaG9ZeHNMZ0JTSnhqTWZyemtFUGdLeEhJOUV5YW9SQURXM1BmS19od3h0M085VGU0UzJnYW14OGx6UzIxWElqSkh0ZzgxdUJvNFFObWZXQQ?oc=5",
-    "source": "Paramount Press Express",
-    "published": "2025-11-03",
-    "added": "2025-12-08T11:31:17.956576+00:00"
-  },
-  {
-    "title": "Over two dozen nations supplied Israel with fuel amid Gaza genocide: Report",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQREtKdGVveVhuQTZWZGZBQkFHcGdCTDQ0cGg4dkJaekh1NEFDbU4yUlBXMXdTcU5XVk5wWWM2Qy1NTTVPWHBMZHZzNjAyd1JlSWZBRTdtSXZQemQ2a0VhakpudHRfZkQydzRQOWVGRzNWNTltb1ZsSW5CcVFzOHdraFM5QnFLMWJraEJZSUg4T0ZGS25QSUJZWmZ1MjhSMHZJdmZ5R1JSMA?oc=5",
-    "source": "thecradle.co",
-    "published": "2025-11-14",
-    "added": "2025-12-08T11:31:17.956597+00:00"
-  },
-  {
-    "title": "How We Revealed Mega-Polluters Taking Advantage of Green Loans",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZGRWTXpvNzJCc0hjQnAwVjUzdk9VNm0zb2k1SUp3M3dzZ2UtZndveDBuejc5alhudFBkVER4cUFDMTVGbW9RMFFpME92YjJPYXJURmR0YVY1RlJoUnUwTjRDSHliRk5LRnFvWmZHVVcwWGFjd0VmU2xZQ3h4U0ZSSndKTFJXclBpZXpBQXVjbmF2MzY1dDJxVGRlbw?oc=5",
-    "source": "Pulitzer Center",
-    "published": "2025-05-20",
-    "added": "2025-12-08T11:31:17.956600+00:00"
-  },
-  {
-    "title": "Data & Measurement | Resource Desk",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9SblZzV29XbFN4ZjNuTklURGVlY2VXeF9jMmJ0NTg1S1JNTm5ReHRwRGd3a0RFdHVhOFRrUG1oRWI5STZyamFQNlhtT0RuVkxPZGE1b3Z3NmhlRF9oM2tlQ3IxUFM3Y0pR?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956603+00:00"
-  },
-  {
-    "title": "The Data Desk - Complaints Part II “I’m Not Complaining But… What About Fraud and Scams?”",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcVd6QnhWbFhVdEdSMVQ5OHoxSGVWUThibWE3eWRQazNFQTZRRmJNcUtpQjlwQUV3MEFPNjk0TGY0bUNJeEEwc2FWUy1JWlhWdEVZT1hFdlZSUklub0s5d044SFhlNUdlTU95WXJOZi1hZzdhVnF0R2lTUzRRWndFOFA5aXFTMFV4b2hXb1dKUjNvTi1nUGlJMVZZRjA5NkFOMXkxRUpOT1ZXMG9WWWprY00tLThCOTQ?oc=5",
-    "source": "consumerbankers.com",
-    "published": "2025-03-12",
-    "added": "2025-12-08T11:31:17.956607+00:00"
-  },
-  {
-    "title": "The Trade Desk’s Blue Ocean Moment: How The DSP Can Rewrite Ad Tech’s Rules",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTzFjNnZ2WE5LSnpBU3paNW4zeTFDU0tZczRrSlRzcVZzZk1wMDZtNm02S1ZhSTg3RmpZY3RZRTRBaXN5QjRLUW9lSXk4QVBvRi1wbWFDcm5MSjJBYjd6dGxVTDhMaGh2aFVRSlVZejBUR3ZGM21hUTgwbHE1VnliakJTZnpkbVdWeTZvTjl0azlZMEtiaFVOM2xoOFlPTnV0MFpkOVkycURPYjZ3T1pUSnNFUDJXT1NtZDRBZ1Ewaw?oc=5",
-    "source": "AdExchanger",
-    "published": "2025-08-18",
-    "added": "2025-12-08T11:31:17.956609+00:00"
-  },
-  {
-    "title": "Heron Data Automates Broker Desk Operations for TFS Financial",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlBwdnVsOC1OVTVLVXdYTVNpMlczTEpDTFFMQld0cDJkUzFXSGN6aUJ0X1ZFcVJCRFZzVTA2MWQxei1na1RQcnJEbGQtT25xdkgwelpFeDdXUl9JSjQ0enNQc0RNc1BmTkw3SmIxVXgtSDVodXJqMmlqd3JTMjFkY0FkZG0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2025-10-20",
-    "added": "2025-12-08T11:31:17.956614+00:00"
-  },
-  {
-    "title": "Mikie Sherrill landslide in New Jersey driven by high turnout, CBS News analysis finds",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcXNKcllQSFNINmpfbEd4UFk2MWJXTVo0dUJ3UmxzbjhwVF8wVXVJVWVfd09zYlQ5TllERG12dENDcXM4ZWtJeko0NXBra05PbzZjbGxxeWJ1TkpxTmNMZHdxZUNJOGl6MWF2MVpoaXpBWWtsLVRTNkYxTUVFd0luOEFhVHlINEtuaThhZm8wSWXSAZYBQVVfeXFMTkR1N2hveFhpSXRjdHQ0ZlFNVWh6Qzhpd2tIOGNxYUVXWGtHU3pCZm50clFEUGwzUGlnbEtWc2NwdHFGUDRoXzRFbTBNcmUxR253UmlZU2JpTFYyWkFfUkVwVnJlZmZSRjZBMDFPRlpaMzY1aGhwOHZVTzhvRzJDYUpPekJwNE8tS0NtTTBscG1SU3NRT25R?oc=5",
-    "source": "CBS News",
-    "published": "2025-11-05",
-    "added": "2025-12-08T11:31:17.956623+00:00"
-  },
-  {
-    "title": "UID2 Case Study: How Metricon boosted leads with omnichannel first-party data",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONzU5UHJPZk5NSzNUb05PR2tTNjVfR3paX19TWkVUWnpfbEh0UWRlU1pYV1gzUllic0JQVW51dngzWmlTTzl3bzZ2YVJSQUNEaDdJM3N4LXhYOTcxNDVhSnpwZjRxLVU2aXJvUGlPMTBKUkE2VTRUc1JnODJ1aEVzM0tPR3BQYkhybjBULTF4VXVqV2w2eGpOS1o2SHNVWjg?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-04-26",
-    "added": "2025-12-08T11:31:17.956627+00:00"
-  },
-  {
-    "title": "Trade Desk launches service to provide better access to digital ads data marketplace (TTD:NASDAQ)",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeTlmbUZfZTNjcDNnSEM5N01HWGthN3BDZTN1M1huc2ktOHNkQ2R2cjFBWFV6Y0t1VmFad2ZmZ1d2bjBWYnN3Q3pwYWRkOVZEbGQwVUxYOEJNYUJFMWFuMVV1WVkxWTFFUzQyWjhra18zYUEyWmlpYkpnT2lkRktYMU5hQzl2elVGMGRfZkh3c2wyWDdKMXE4eU1UaW1KQ0N3OVlvWi1mQmFjekNsSWFJVlZZRXJvam9IYXNCMkhSOA?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2025-09-29",
-    "added": "2025-12-08T11:31:17.956631+00:00"
-  },
-  {
-    "title": "Coca-Cola serves up success with retail data solution",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMExGTW9FTDcybHR0a1FYeW9IZ01FOTdKeEVYRnVrYnRtSVdrZzRpZHJqd1BJbDBZekJmYndiaXoxakNkdmpCSHI2UVdjVW5KdllXUmd3UHNTOVV4aVFJNWdVNkt1Q3NWUzZ0WjkzV2dlM3FFcXlmdmw0anJpdUpHQ00xbmphQV8zSk1CSVE0Y2hObDJMUnRMOW5RMA?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956641+00:00"
-  },
-  {
-    "title": "NIQ announces global data collaboration with The Trade Desk to enhance audience targeting",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV1BwdkpyYTVJZmxiZURHaHlSOUg0THpSVktHSlRmMDZkWEZfbnpxSXdWRktqaE9mRUJmVTJEVEpBSU5CaTh2VTFXYmIxbkh2SDJicjdOUTg1aWE4bGVpV2RodnN1dVJsWk5wRUlLcFM3cDB0ajFxb0lPblM5TF9tVzZsLVlCblVkRHJzaWlxS1lRTW5BVEl6a1hNTkxHdWdhdE16YVVvSldEX0tDMkZTeGZBRVBVNTZwdnpPZDFUNEphNEZHVHVMOWdneUMxVDZYUlI0QVdQRDBQUUprVWpn?oc=5",
-    "source": "Business Wire",
-    "published": "2025-04-28",
-    "added": "2025-12-08T11:31:17.956645+00:00"
-  },
-  {
-    "title": "CBA Launches the “Data Desk”",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HVjFmVmRmdmVaWmk2UWtvcHk4LV9VUVpyM0ZRV296ek5GRi1WTUt3REJfSjhDTkN3NGRyODdJOGdBLTN6RjRIb3paQ1MwSERqdFRwVGNDc1Z3bl85OFdmRzJNcjB1am12cGRBRF9aUHlvb2s4UDdYTw?oc=5",
-    "source": "consumerbankers.com",
-    "published": "2024-11-20",
-    "added": "2025-12-08T11:31:17.956647+00:00"
-  },
-  {
-    "title": "Samsung upgrades on impact with data-driven targeting strategy",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa05nZlR2QlhZY0cxQTJyVUNjMGlWSzJ3ZE5rUlo2a2lzT19qYnFfeDQzY3h4aWNjeXdNYWdzYzlPUUNMOWZsZWVEcEFVb3J6S25tbUp5OU5ZbjgwRzBJVDJjd3lJbEo1QTg5YmQtN0M5YTg4TVNUam54eEl3c2wxZDFLUUN6eU1CNGRmaFdsZTRrN1ZSZ2d2R1VkbkZwMXF3VEFLSFdkNA?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956649+00:00"
-  },
-  {
-    "title": "Unilever’s recipe for success with retail data",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYWRQaXVObktjcFItNklKekM1cGotVG9Ia3VtU3ctcmM4LVhUTnZTU21YQ3FlR1dUZEFrYnNGbjZFcVZpYm84RXVHOW9vUVc5b25yLWlkOHlhVjJBWjZlNXAyTk5kY3JoU3JNRldCdW44VFlvUVg4UHZUT0VFV095V1l5MXpXX00zbTJ0SmhGTUZHUQ?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956651+00:00"
-  },
-  {
-    "title": "The Trade Desk powers up with data-driven omnichannel strategy",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPODJnUzZLWXM5YUJhRlpUaXpjNHNMbmZxUkhkVWtpUWdRN2ZGdWZYMkxRc0lBSDBoT01UeHR6dzVEQzRpSGxIM3p6czMtZkFMNHBEdm5aR2lwNlNtbDhKTU8zUF9CSk54REhOQTZXZDJ4OU1FODA5eXFaUDhUS2ltV0Nhcjd6T0h2ZERxcVB4UGFDX1hnWTYwMXY0NU9PdWM?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-21",
-    "added": "2025-12-08T11:31:17.956653+00:00"
-  },
-  {
-    "title": "See how CTV and retail data help double sales",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWU1YTEZPY3dTVW1mZnYwU3lzbUZ3alpzV3ZNQW1pd2owSHFQZzZwQ3Vvdko5anJydnFYOUJoZVRqdnZqTGhGOVB2TTZLSmNsekRWX0VlYXJ1WHBwdzZKQU9TbVlyTEg5WHJ4NE1WaXF2bUI5amFlQnppV2NFMV9OaXZFQnQwdU51eldFZTVic0NkVEd5Vmh4WEhZYjN1Z0k?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956655+00:00"
-  },
-  {
-    "title": "Wyeth nurtures healthy brand growth for Illuma across Taiwan with data-driven, cost-effective campaign",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaGxHQnNoSDBYU2tkcW5rZlR4clFmdlRTcF96aWtwYkhEUlFVLUdTVTJWYWluTXJieFR0em5VQWtSSldhVlIzNElMemFvVTBrNTFvLWZIN2NUcWpjZEdWeU1IaTNTMV9ZdjNJWFZpckt1RjM3Y0RPQ295QzRqbVo2Q0l6UTlJblBlMnRMaUJGaWFaQVgwSFB2MDBNZw?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956658+00:00"
-  },
-  {
-    "title": "Power your CTV campaigns with linear data",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcGE3eWZqclNoZTlVZjFXUzhhVmh6ZWV3U25rNDRHejdmMHhfV2lQcEFIM1Zmams5cFI2czB0WjZhUXJKQkJCODlHUVd1WS1HX1l1dTJKVDFOWDB1YWtDcVMxZkxYaDdpNmN0Y3JWSzNJYjZiWTZvN1FMbWtyclhzRGV0LVg?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956666+00:00"
-  },
-  {
-    "title": "The class of 2025: By the numbers",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMXYwZGMwNnB6LXBTOW5JZUotQXZJTHRhZm9SMDRxUHdpR0xTMlpfSWVDbnRQbVYyV3JsNkpYOTRESWVKVWJycGlaVllCTFF3aGh5TV9MRXVjMll0cVoycml3UF8yY2o3QVl2VUM5NFB2eHd5NWpsN3ZWbF82bGFiaw?oc=5",
-    "source": "Yale Daily News -",
-    "published": "2025-05-17",
-    "added": "2025-12-08T11:31:17.956673+00:00"
-  },
-  {
-    "title": "Cornetto scoops sales lift with weather data",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMlBoSGpDSWtLQ2FWRjJKSTJvQU9RWUZwUmlIbC00ZGZJUWxoSUNkamp1SXQzZ1J5Zm02NkNqbjRVdzBvOWg4TFhia1czMWVjNXRjVVhVcW54ZElQQ3ZMSm9VQ2FMUXhNNjROS3MxTnBtamhJZVJzN25rc3hXeWlpaVkwY1ZmN09adm9aTlhUTmFsZw?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956675+00:00"
-  },
-  {
-    "title": "Trumid zeroes in on data automation, appoints Ryan Gwin",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOM0hUaG9CQlEwMXRwdDh0QTctcGNVUjlKaExTQm9oRmtNS2plVFJ3emw5OXBBWTdMckluYnRsTnp2QmJkMzM5eHRPdDNFcXJwd1lsT3NuRlVvX1F1MndSamY3U1ZUQTlLWWxSUER6b3VtNzMxdWIwX1owcXdLT3lQTUIwV2xoQQ?oc=5",
-    "source": "fi-desk.com",
-    "published": "2025-01-23",
-    "added": "2025-12-08T11:31:17.956683+00:00"
-  },
-  {
-    "title": "The Data Desk — Cumulative Impact: What Do Reg. II and Overdraft Proposals Mean for Consumers and Consumer Banking?",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeU1VNXROal8xbmNDc3BIeFhWSWw0dmx5T3FTY1hfR0lxRDRvSE1jVDBIZ0NuZ3pkWV9pODV5UnBSaFY5RGNvTmszcS10YWJVLS1XaVdHZFByd2VNZEZlTGw4TGRtS1c2dHc1bzYxY2w0dDRNWmh4LV92OWxxTlRzTXZTam9aTU9XYlJUcC0xcHdoMVhJbVhJM1VGTExWSWVUUUQ3Zy1CdjNUN3ZkcGxWN0tnSkJWc1VDRUhreXZYUmVqRUl4UWNSMFBsbUd3UC1Rc3FvSjVZWUZRSUNm?oc=5",
-    "source": "consumerbankers.com",
-    "published": "2024-12-02",
-    "added": "2025-12-08T11:31:17.956685+00:00"
-  },
-  {
-    "title": "Lowey Dannenberg Investigates Consumer Profiling by Data",
-    "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOUW45MGFQdmNaejdQUVhCUHhBcjRkbXQ5V2RVRS13a3hyRXpYaWxvYlBlMFAxdmZaSEtaaXVIVnNpb2dVNWl0SWstX0xELUxqNGZPb1RjbjhNaGFfamllTVNPTzBEVi0wOXEtQVlIelU1M0FIUHBOa3M2Zm1rX1gxYjQ5RnVLU0RxbVo3aC1wNS05bV8zT2hZLXF1UmZyNVRlYWE0WWRLNkViUnRKYmZRSWstSHpaOFFydHhjNjVESk9FTG93c1ZJdDFVMzZpQlYxU3B2TXNnSDE3YjBhWE4xWm1CaWJyQVRaT0wzQWhnYVVFSVFCRTNmZXNORUJCQjFuMkdNOW8wdEhlQ3ZoNzBOeXEzcDQ1cWM?oc=5",
-    "source": "GlobeNewswire",
-    "published": "2025-05-07",
-    "added": "2025-12-08T11:31:17.956688+00:00"
-  },
-  {
-    "title": "Trade Desk buys ad data firm Sincera as brands seek objective insights",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYmpTSWZXYVBYZlB3bHFxY1hjQVNFZjlZQ1FMc2hwLWMybUxMcHludnNsRk5DYjlzTlk2ZWFPNFVsQnNpZWFmMEJYelpaX3NTVjVZWDd6OGVaazdYQU9kVndHVW9LMkdNNkZMTFZvTDNHSHRaZXFsaTcyaUNrX3YzWmRvWHhmTWw5Q1ZLTjlwVGlIRkgwRkhidmEtaFc2YUNV?oc=5",
-    "source": "Marketing Dive",
-    "published": "2025-01-17",
-    "added": "2025-12-08T11:31:17.956690+00:00"
-  },
-  {
-    "title": "Kellogg’s boosts sales by 187% with a BVOD campaign powered by retail data",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ0FKOXNYTzVvOUY5Zkt1Rk1oWTQ3RTh5U3htcVNWaFZzLXlvb1RpTllCOTZZaDk0OFdpRkM0QkV6MVlKYzZzZ3dZWmc0S0dQZ1liZGNwNjJmdUJJa1k5eHlsTUJRMVVYaVlSdE9pTE1fZVJfbGlTeVpYLWJqOHctN2JmYjNxY0lFa3hEdmtSa2Q3N1RtNUE?oc=5",
-    "source": "The Trade Desk",
-    "published": "2025-03-18",
-    "added": "2025-12-08T11:31:17.956693+00:00"
-  },
-  {
-    "title": "The Data Desk — Complaints Part I: “I’m Not Complaining But…?\" Refocusing the Regulatory Lens Using the CFPB’s Complaint Database",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQUxaYlh4bld2bjlsWTQ2dzJGbkxuaUxGUHE1cHh4WGp6YzRQOG5Tdkh2UmRucXRVOUFFRjFiM01sLTNCNjd1WUR6amstMnRIVER0cGxON3lRamtSYnFXb0lpMDZLeXB1TmJtd0F1QVZicHpHZUdaNUowQ2h2S1RtdjFZZm11VHBhTEItekttVlkxSnlIZlpRbkg1SXgxbHhpX2RQS292cmlTekZQQVBlTkEwajZGSHdQbnViS3pNd1JnbkZMT2R5U09rb0ZQc3R0c0NXbHVwNU85WXdpUk9RWW9MNmt5NGpBSWc?oc=5",
-    "source": "consumerbankers.com",
-    "published": "2024-11-20",
-    "added": "2025-12-08T11:31:17.956695+00:00"
-  },
-  {
-    "title": "Marriott Is Deploying a Front Desk AI Tool. It Took Time to Get it Right",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTUNaQ3ZmMVBYUEwxdGhpNFhMMmZRelBOR3BXQm9aZ2h5QUNnTXZPenB5STlsZDcxbW05REs4YzdyRzV6b3lQSk9pMmgySzFBb20xYy0xR0NxWnp4OWptX2ZyV3A5YWVuUzMwZHlCU2tpNzN3cHd3Y0VNZldNYjhCMzYxaVFMWF9LYTRhQjlZZVU2dl9xYlIxdFhmemRoUzNSeVZB?oc=5",
-    "source": "Skift",
-    "published": "2025-06-04",
-    "added": "2025-12-08T11:31:17.956697+00:00"
-  },
-  {
-    "title": "CSEA Africa’s Data Future Fellowship 2025 ($1,500 stipend)",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbFIzRXh1T01pdnFHNXFrWUVER1c4ZEhYUWREWFAwakxxZ09VSnp6d2hpMjlidFpqbkFyOW4tYlQ5QjEyU2lnSHdmcmtTSXZORVVSbm9RVVRHNnUwYmpMbjhTRzUxQTBZOXk3eUE5aThIVk5qenExVDVxOERHakVHV3FWemUtQQ?oc=5",
-    "source": "Opportunity Desk",
-    "published": "2025-07-10",
-    "added": "2025-12-08T11:31:17.956701+00:00"
-  },
-  {
-    "title": "Jefferies picks Propellant for FI data analytics - The DESK - The leading source of information for bond traders",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSnJBd3JVazFjOE5VQmI2SVByVmVwbVRYQ1B5TUtwRzgtSGVqbFQ5MUtyMHo4VEQ0U2VDdVQ5R1U3ZVFqUGZmbENtNnRTNkNxUFdMZzduQ2w1Z0xDejQ1NWxuS21oekFOSTVSa055VWxfcmxNd0drTTl0cE5uQQ?oc=5",
-    "source": "fi-desk.com",
-    "published": "2025-01-23",
-    "added": "2025-12-08T11:31:17.956703+00:00"
-  },
-  {
-    "title": "The Trade Desk launches “Audience Unlimited” to overhaul digital ad data marketplace",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTUFOSU9iVkJGLU5manhFTDlMeXNfM0RzaG5WR04tYVhQWU1Iakw5QW5JMDZNelJ6a1hlOUdJVzYxck04cER1VmRtQ2sxa2dPZGMzMWhSMm5YbW1tZ1oweHIydGtfclRwMmRUbWRVS1p5RXFqRlpkTTd2elhGMjhLSFRLR1lyMjR3Um5vMjV1R1REcmZKNldxRGpmWFN6X2tBdDNLR3hrY09xVU1IenRpTnAxZ0RpUFFvbmVNZWp2UnVBb3ZScW5ULWdYSWtYZE9CTktSWHNDTWhYZGVYM3fSAd4BQVVfeXFMT01BTklPYlZCRi1OZmp4RUw5THlzXzNEc2huVkdOLWFYUFlNSGpMOUFuSTA2TXpSemtYZTlHSVc2MXJNOHBEdVZkbUNrMWtnT2RjMzFoUjJuWG1tbWdaMHhyMnRrX3JUcDJkVG1kVUtaeUVxakZaZE03dnpYRjI4S0hUS0dZcjI0d1JubzI1dUdURHJmSjZXcURqZlhTel9rQXQzS0d4a2NPcVVNSHp0aU5wMWdEaVBRb25lTWVqdlJ1QW92UnFuVC1nWElrWGRPQk5LUlhzQ01oWGRlWDN3?oc=5",
-    "source": "bestmediainfo.com",
-    "published": "2025-09-30",
-    "added": "2025-12-08T11:31:17.956705+00:00"
-  },
-  {
-    "title": "The Trade Desk Is Acquiring Advertising Metadata Startup Sincera",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnhSN19GQUp0UkhodTJra2lPdEpxdUJ0NTZzbHJuV3oySGh6U3BxRnYwU3UtcmNuUFNQYVBNbjROQTZWeDZGNGM4VGxubXdHVkE5WUQzT2lpV3BEZUY3VUJiQXFjbWlGSzNHVmdlMlJYQm1fWVRaOVBHUVFHLUxDWllUR0c3YjdQTE9NVjVwbUFWU2V0eERxQjk4dmQ4V3k2T0N6V0lxVWlvWDVK?oc=5",
-    "source": "AdExchanger",
-    "published": "2025-01-15",
-    "added": "2025-12-08T11:31:17.956707+00:00"
-  },
-  {
-    "title": "The Trade Desk Acquires Ad Data Provider Sincera",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLR3F6dFc0TWlKS3lhbTRodXRNRDF2M1VqcklHMkpxTzBlQjNxQXlYYVpnYU44Z2dlejRJZXJaUW8zRUtzM1lKbWoxNTJZdVZjODlTc3NyMEFnTnltTGNkOHpWbUlYbkRiMXFpLUN0UENjYWl4SF9F?oc=5",
-    "source": "ADWEEK",
-    "published": "2025-01-15",
-    "added": "2025-12-08T11:31:17.956709+00:00"
-  },
-  {
-    "title": "The Trade Desk Acquires Data Company Sincera",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVc2NXU5NW5MZXFRYUNUdFBwS2FpeWNqbTFmNl8tT05HQWlpanYxVEI1RlZBcGdSa0VUSks3TTJlaXdRcExuTVR0NzdUa05ITzEtb1doN2EyOWZ0a3FRaEJKeUw4bW0wUm96aWJFN0RpQVlVRExqUVZzNjZfeGlXVThBWXNMdw?oc=5",
-    "source": "CDP Institute",
-    "published": "2025-01-22",
-    "added": "2025-12-08T11:31:17.956711+00:00"
-  },
-  {
-    "title": "Can retail data make hot retail media hotter? The Trade Desk thinks | Mint",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQaDV4YzloM21uUGdsMTNHYmZpeUN1elBpNDlSLUVqRnh0V245N3paX0NRZHpVRWVtbm5JWm9sd0Y5WFUwU2JMVm10TjBSa28wc3hfQUtEYUkzMHdNdjJ6NDZOd0xrcnB3U2xpZ21LS3JZemQtQWxmbDFZMXZGNHZLNWIyeHFkYUk3X2FTenh2S0tVUzJzZFU2YzFaZjl6VEZnemo1NGVyRWdnendhM3cyZVMzSTFMXzR4R1A2RnF1OXJUVjVBcG9mcmZpR3VmdTc3X2FkRnA0ZFJmYlROTTJ2eXIzejNDNmtNR0Q1dEZGdU1ucy1XTkx3RGV0STDSAYICQVVfeXFMTldOcUZKQU84QjYtNGQ2dDZyWnBxeXF5Uy1FOVk5LTkzWnZyRkVkMGNpR1RZS01SZ0h1X3A0TVYxbUlYUkFlb3R1Smg3UWI3eGN4RlNSMU92WlkwWWdLUTE3T2V1Vkc0SlR4OG9PTzhCWUxTNmY5Nmd0bHBTaUVtcWpRTUJxSFUyRTdFbGhGdldITWVDZ3Bpa2tIQ0hBQXljelA4T1R1NUV3b2RYbVhHRXJ1czBtWlZCT19wOFZsUWVPczh5SmZscWJSUDRXS2l5SG9EQXB4dGtfVjc4OE9VWXFIbERwN2Z3bk9uaEtvQXNfeGZlbG5laVEzYzdJM0NKXzdR?oc=5",
-    "source": "livemint.com",
-    "published": "2025-10-27",
-    "added": "2025-12-08T11:31:17.956714+00:00"
-  },
-  {
-    "title": "The Trade Desk announces plans to acquire Sincera",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS18zVURpSWFjcHJuTnlYc1NSUkY2UGxoMk1RTWVPRFhzUm5tTTlveHc5SGw3NDItZHJTSVdxSzl0N2Yxb1BTTVdvSVg0MWRNM19WZHZreGVRRGdLdUNRZGNhU1RrRng4YUNPU05Tb1pVUjZLOG9vcFJsaWR4dU4zNVlZTkZOSzhIVnFz?oc=5",
-    "source": "Digiday",
-    "published": "2025-01-15",
-    "added": "2025-12-08T11:31:17.956716+00:00"
-  },
-  {
-    "title": "OSN, The Trade Desk ink data-driven TV streaming partnership",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY2xpQ1pvYURwOThhZEM4Mk1GR0Npd1FUT1dhc2ttUVdiRmQwLTRIZTRMSTdtQk43NlNZZi0yM0hNbWtySF9oRzFyaGlUcXVmbDhZc0tnUUh5MndYbnFvWTdTTnV5N0diOGs3dnRtNXBuVUNzQmNLSUpnVlE4dDE1VnJaRGx6LWQxLVRj?oc=5",
-    "source": "Campaign Middle East",
-    "published": "2025-08-11",
-    "added": "2025-12-08T11:31:17.956718+00:00"
-  },
-  {
-    "title": "Albertsons, DoorDash boost advertiser offerings around data, measurement",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON21OaW9qTkJLWDJvZThKRU9VQ0tDekw4TTE4dnpiazUzLTQwOExGTkRfS2lyR0drZHJHM2tKdmdpZWFqSmMyRUJWX09iRmhRaGJiMWhJSE4xSDJDVWtMc2pqVG1leEVsNWVSWTlhUG9yaTlULVNicGwtWGJIQVlKTFZBRnpRNThGOUZwS3EzTUpxOThJZVZjMHlwNjNmVnlVbjlPbXVLajhwS1g4QTYzR2NvNjU?oc=5",
-    "source": "Marketing Dive",
-    "published": "2025-01-07",
-    "added": "2025-12-08T11:31:17.956720+00:00"
-  },
-  {
-    "title": "How to maximize retail data this holiday season",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUW02MVVTbzFseHkyTlZOVXFzNU5SOU9idXVNX3U1MVJISlhGMzlzWGVsaERDeXQ5RUUzTFBwc3dUb0RLYUIyQ0MycC14MVRmdFNSb0pBTzJsQzRGRk5lcUE2Y1pPakZENlpRSGtSdzRDdERjeWtLcVlRWnM2b3hNUzhTYVhhZHVhY2wzUHNwYw?oc=5",
-    "source": "The Trade Desk",
-    "published": "2024-12-17",
-    "added": "2025-12-08T11:31:17.956722+00:00"
-  },
-  {
-    "title": "Capacity Accelerator Network (CAN) Data Science Fellowship 2025 for Africans",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8taGdvajltcFc3X05fblA0dHRzRnVoaW9VOHptSm9fTU5pSm4tT05DZlB2LVRIeDdhV3Q2QUJwbGpFLUZVM2lFQ2lueXI4endzLUNBTTNoNUpzYW43b3JkQktqOFZIeWQ2ZUE0ZV9OSFpZN0FUMW9CVi1uejg?oc=5",
-    "source": "Opportunity Desk",
-    "published": "2025-03-28",
-    "added": "2025-12-08T11:31:17.956726+00:00"
-  },
-  {
-    "title": "Reach the right audience with retail data",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMTZhVm9pSGdCUXNiSGhnaTg2RUN0Zzd4dE1WQ2NyUTJjRHJGUThJanRTa3JaT2dYOVZkSnd2dE1XUjFjeVNPaHFucWNOWmtjSnRsRnltWjBEeHlVMlVYTjU2SUZ0elVwaE5SUnNobnRTeFdmSTZtOEk2bnJEM3VnSmVERkVUWHlMdmlJ?oc=5",
-    "source": "The Trade Desk",
-    "published": "2023-06-27",
-    "added": "2025-12-08T11:31:17.956741+00:00"
-  },
-  {
-    "title": "Boiron boosts return on ad spend by 2.67x with Kroger retail data",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR0dTa1NWMkg2WWtVdmtYbmNKVG10NTZlWm9pSGJfbHVPd3RINDQ5ZWxlZGh0MzhFTDVHakE2SWRKdlNUdXlPNzhJeEU3eGVsVHI4NTMtSVhXUDVHdFVJMVdRclpVVm5zN2tIZEVUend3d2RPNHNhQWlhYXh2LUZIX0JKdEh2cEdvZS1VMzJHSWhfOFN3NXRlVURadW9VLXMzSDdzVGgxMUQ?oc=5",
-    "source": "The Trade Desk",
-    "published": "2024-06-04",
-    "added": "2025-12-08T11:31:17.956747+00:00"
-  },
-  {
-    "title": "Question about sludge? NYC’s Open Data Help Desk can help with that",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDN2NxMEZfNU05dTVvd2R0QkZYYXp3SnpjeEkzM3Z4YTdYeElPWHVYQjFMTjRYeng5QkU2V0tnSElUUmtPcjBYZTVIOWFKbmRINmFxQ3lPZ1FOVVdtVnBjZjczVUJ3alloZXh3Vg?oc=5",
-    "source": "StateScoop",
-    "published": "2023-08-31",
-    "added": "2025-12-08T11:31:17.956752+00:00"
-  },
-  {
-    "title": "Discover the benefits of AI-powered retail data",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUG1jbkFQQ2JJZVltczctQUJndTRuVWYwclpEU2ZtNkRBSjR5S0tQUFhNRTd0dnNoa2FTa195LUQxMzdDdERnV2o1VzFodXh0Vkd0YVIya19ZdUhLeTBKeDNRNXkyQTN5MThlNjB2WHFzQ1ZCcUJabGRaV3lIblA4bEtndGgxcl9KWHNCV0hXWQ?oc=5",
-    "source": "The Trade Desk",
-    "published": "2024-07-30",
-    "added": "2025-12-08T11:31:17.956754+00:00"
-  },
-  {
-    "title": "How The Trade Desk is evolving its approach to first-party data and IDs",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzdHWnE1RFdwWmxiQXo5REo0MW1XRkJZbDR5NFkxdnRRMFMwb1lFSWFSdFVxVFhYWXgwZ1pqenpySHdnM2hLWnZTcTUxLW5EdkF1R3JlNGF2MjRNWTdzUFBLRnNOMFNQRFNEMUVkQjlVdWRjV1p6MEtENFhKbG44THlENFMyNzBTNFN4cmkzSVIxZmlTdnBsTUR3QmJFcXFMSVRFMg?oc=5",
-    "source": "Digiday",
-    "published": "2023-09-14",
-    "added": "2025-12-08T11:31:17.956756+00:00"
-  },
-  {
-    "title": "See how The Herald’s pages have evolved since 1891",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQREhBSWFURi01YlpnNmtnX3hvVVBZemwydHc3ellGczhpSk9wSjV5bjYzbjV3RmdCWlhMektjdWdIUkJHVU5tM0VYNjJJVU82Rm1jQkkwLU1oWG5QN0gzUDllVzRDYlZaa3pLZ3NnMTVPNTZzTmloLWEwRUFvRGhzbDhmU2JWemV3Qy1sV0ZSZ2kwT2VESi1TSnVRZER2b1U?oc=5",
-    "source": "The Brown Daily Herald",
-    "published": "2024-12-04",
-    "added": "2025-12-08T11:31:17.956761+00:00"
-  },
-  {
-    "title": "Andrex rolls out retail data to achieve 5X ROAS",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWpURmk5Z24yVEludWZpbm15RnFtOEtYdjFZaHVfb1pST1Q0UUJKRkNvZGctRGpscTJVV0Raay1MZGZQNTBFNlpFdExxdFhxaGFqSHdzTTVrTXJPZFBsSkpHZk1jSVJVcGdkN3ZXcktRVDdMWmVuckl4MUJqTUlyUzJSeS1VZ0ZVSDlDMTBMTTRZVjBzVXM0dzBaSTAzYjJSdWNSTVh3QkNXTmppU0VSVXNPZw?oc=5",
-    "source": "The Trade Desk",
-    "published": "2024-02-28",
-    "added": "2025-12-08T11:31:17.956763+00:00"
-  },
-  {
-    "title": "ICE: Optimizing the data pipeline for buy-side trading desks",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM0pkM19NMG1uZVhucFV6V2VyZWtybjJ4WllWV1pZclROZmNJN1BpU05ZVEpIVFQ5QmZOemlKNE1qZjFCTXIzQ2xIWnBhcC1PWEdmd19tUGIzQ00zZzRUOGk0eWNpX0ozeUxrTXk5d3g3c0U5VjBEUU9hUGpsSHNZbkVyNjlIOUdrMGdpOQ?oc=5",
-    "source": "fi-desk.com",
-    "published": "2024-02-29",
-    "added": "2025-12-08T11:31:17.956765+00:00"
-  },
-  {
-    "title": "WATCH CBS NEWS AND STATIONS’ “AMERICA DECIDES: ELECTION ’24” TEAM COVERAGE ACROSS BROADCAST, STREAMING AND DIGITAL",
-    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQMVhQY0o5MzN3NE41WHlIdExPTVVCaXVxVjJMazlZejF0cFJYZ1c4RTdvNTJTMGVXc1VNMDRqVGVQeldxUldlbG04bnRsMk9qcjBrcFV5ZkowdDFaR1lfUWU1TVRGRmhpMkVUOUZWVTFib1MzejEyeXdJcW5hNHBHdmlvYU5LYk9SVW5TQ3QzbWtfbWYxU3VnV1dCakpoQ2RoRTZIb0ZZdmtBbWJZTGJtRWk0blZHcVpSOUtBMFBPalFQODR5M2h2U01CeTl5M201U3l5dkl6clp6Wkl4ZWpMbzE4LWxXNWpoRk5WT2xYSUlTbl9tdWxpV3RNWDdORnhqdDRXYmZLeVU4QU1BOTdJVjJIMWR6Umo4TXc?oc=5",
-    "source": "Paramount Press Express",
-    "published": "2024-11-01",
-    "added": "2025-12-08T11:31:17.956766+00:00"
-  }
-]
+[{"title":"Did Intuit’s SMB Data Tie-Up Quietly Strengthen The Trade Desk’s (TTD) Competitive Moat?","url":"https://news.google.com/rss/articles/CBMieEFVX3lxTE90TEZBdUlCbmRDbm11a1B5VGIyY0lkdzFUX2J6MHBYd1dwN3JDUER6UTBtZ0owLXBpS3hubFpXSGxvTUJhSEJ0ZUJ0ZkZ2M1c4M2ZDS01fLS1MMnlYaFBIQVFOUjlUb2c3WktoV2Z2MEpJWThDUGlhOQ?oc=5","source":"Yahoo Finance","published":"2025-12-06","added":"2025-12-08T11:31:17.956548+00:00"},
+{"title":"Recycling lead for U.S. car batteries is poisoning people","url":"https://www.theexamination.org/articles/battery-recycling-nigeria-lead-poisoning-us-automakers","source":"The Examination","published":"2025-11-18","added":"2025-12-08T00:00:00Z"},
+{"title":"Over two dozen nations supplied Israel with fuel amid Gaza genocide: Report","url":"https://news.google.com/rss/articles/CBMipwFBVV95cUxQREtKdGVveVhuQTZWZGZBQkFHcGdCTDQ0cGg4dkJaekh1NEFDbU4yUlBXMXdTcU5XVk5wWWM2Qy1NTTVPWHBMZHZzNjAyd1JlSWZBRTdtSXZQemQ2a0VhakpudHRfZkQydzRQOWVGRzNWNTltb1ZsSW5CcVFzOHdraFM5QnFLMWJraEJZSUg4T0ZGS25QSUJZWmZ1MjhSMHZJdmZ5R1JSMA?oc=5","source":"thecradle.co","published":"2025-11-14","added":"2025-12-08T11:31:17.956597+00:00"},
+{"title":"Mikie Sherrill landslide in New Jersey driven by high turnout, CBS News analysis finds","url":"https://news.google.com/rss/articles/CBMikAFBVV95cUxPcXNKcllQSFNINmpfbEd4UFk2MWJXTVo0dUJ3UmxzbjhwVF8wVXVJVWVfd09zYlQ5TllERG12dENDcXM4ZWtJeko0NXBra05PbzZjbGxxeWJ1TkpxTmNMZHdxZUNJOGl6MWF2MVpoaXpBWWtsLVRTNkYxTUVFd0luOEFhVHlINEtuaThhZm8wSWXSAZYBQVVfeXFMTkR1N2hveFhpSXRjdHQ0ZlFNVWh6Qzhpd2tIOGNxYUVXWGtHU3pCZm50clFEUGwzUGlnbEtWc2NwdHFGUDRoXzRFbTBNcmUxR253UmlZU2JpTFYyWkFfUkVwVnJlZmZSRjZBMDFPRlpaMzY1aGhwOHZVTzhvRzJDYUpPekJwNE8tS0NtTTBscG1SU3NRT25R?oc=5","source":"CBS News","published":"2025-11-05","added":"2025-12-08T11:31:17.956623+00:00"},
+{"title":"CBS NEWS PRESENTS SPECIAL ELECTION DAY 2025 COVERAGE THIS TUESDAY","url":"https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb3Y0OVNMSDE0NEpWeWIzdHRJcmFjcnJ4YmhiTWxkaGZPeExpeXVibTFDRVJXWlpUZVE2UVoxOTRSeTdhVmlwQ1U2WkEyUHp4Q25oYmNtMlRQZHR0MWNRdkRscFlRS1RRS211S2dSU0JDM3ctZV9DWTM3ck1qTDRRNWQ1RVZ4YkxTUXpFNnJHejlaaG9ZeHNMZ0JTSnhqTWZyemtFUGdLeEhJOUV5YW9SQURXM1BmS19od3h0M085VGU0UzJnYW14OGx6UzIxWElqSkh0ZzgxdUJvNFFObWZXQQ?oc=5","source":"Paramount Press Express","published":"2025-11-03","added":"2025-12-08T11:31:17.956576+00:00"},
+{"title":"Can retail data make hot retail media hotter? The Trade Desk thinks | Mint","url":"https://news.google.com/rss/articles/CBMi_AFBVV95cUxQaDV4YzloM21uUGdsMTNHYmZpeUN1elBpNDlSLUVqRnh0V245N3paX0NRZHpVRWVtbm5JWm9sd0Y5WFUwU2JMVm10TjBSa28wc3hfQUtEYUkzMHdNdjJ6NDZOd0xrcnB3U2xpZ21LS3JZemQtQWxmbDFZMXZGNHZLNWIyeHFkYUk3X2FTenh2S0tVUzJzZFU2YzFaZjl6VEZnemo1NGVyRWdnendhM3cyZVMzSTFMXzR4R1A2RnF1OXJUVjVBcG9mcmZpR3VmdTc3X2FkRnA0ZFJmYlROTTJ2eXIzejNDNmtNR0Q1dEZGdU1ucy1XTkx3RGV0STDSAYICQVVfeXFMTldOcUZKQU84QjYtNGQ2dDZyWnBxeXF5Uy1FOVk5LTkzWnZyRkVkMGNpR1RZS01SZ0h1X3A0TVYxbUlYUkFlb3R1Smg3UWI3eGN4RlNSMU92WlkwWWdLUTE3T2V1Vkc0SlR4OG9PTzhCWUxTNmY5Nmd0bHBTaUVtcWpRTUJxSFUyRTdFbGhGdldITWVDZ3Bpa2tIQ0hBQXljelA4T1R1NUV3b2RYbVhHRXJ1czBtWlZCT19wOFZsUWVPczh5SmZscWJSUDRXS2l5SG9EQXB4dGtfVjc4OE9VWXFIbERwN2Z3bk9uaEtvQXNfeGZlbG5laVEzYzdJM0NKXzdR?oc=5","source":"livemint.com","published":"2025-10-27","added":"2025-12-08T11:31:17.956714+00:00"},
+{"title":"Heron Data Automates Broker Desk Operations for TFS Financial","url":"https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlBwdnVsOC1OVTVLVXdYTVNpMlczTEpDTFFMQld0cDJkUzFXSGN6aUJ0X1ZFcVJCRFZzVTA2MWQxei1na1RQcnJEbGQtT25xdkgwelpFeDdXUl9JSjQ0enNQc0RNc1BmTkw3SmIxVXgtSDVodXJqMmlqd3JTMjFkY0FkZG0?oc=5","source":"Yahoo Finance","published":"2025-10-20","added":"2025-12-08T11:31:17.956614+00:00"},
+{"title":"The Trade Desk launches “Audience Unlimited” to overhaul digital ad data marketplace","url":"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTUFOSU9iVkJGLU5manhFTDlMeXNfM0RzaG5WR04tYVhQWU1Iakw5QW5JMDZNelJ6a1hlOUdJVzYxck04cER1VmRtQ2sxa2dPZGMzMWhSMm5YbW1tZ1oweHIydGtfclRwMmRUbWRVS1p5RXFqRlpkTTd2elhGMjhLSFRLR1lyMjR3Um5vMjV1R1REcmZKNldxRGpmWFN6X2tBdDNLR3hrY09xVU1IenRpTnAxZ0RpUFFvbmVNZWp2UnVBb3ZScW5ULWdYSWtYZE9CTktSWHNDTWhYZGVYM3fSAd4BQVVfeXFMT01BTklPYlZCRi1OZmp4RUw5THlzXzNEc2huVkdOLWFYUFlNSGpMOUFuSTA2TXpSemtYZTlHSVc2MXJNOHBEdVZkbUNrMWtnT2RjMzFoUjJuWG1tbWdaMHhyMnRrX3JUcDJkVG1kVUtaeUVxakZaZE03dnpYRjI4S0hUS0dZcjI0d1JubzI1dUdURHJmSjZXcURqZlhTel9rQXQzS0d4a2NPcVVNSHp0aU5wMWdEaVBRb25lTWVqdlJ1QW92UnFuVC1nWElrWGRPQk5LUlhzQ01oWGRlWDN3?oc=5","source":"bestmediainfo.com","published":"2025-09-30","added":"2025-12-08T11:31:17.956705+00:00"},
+{"title":"Trade Desk launches service to provide better access to digital ads data marketplace (TTD:NASDAQ)","url":"https://news.google.com/rss/articles/CBMivwFBVV95cUxQeTlmbUZfZTNjcDNnSEM5N01HWGthN3BDZTN1M1huc2ktOHNkQ2R2cjFBWFV6Y0t1VmFad2ZmZ1d2bjBWYnN3Q3pwYWRkOVZEbGQwVUxYOEJNYUJFMWFuMVV1WVkxWTFFUzQyWjhra18zYUEyWmlpYkpnT2lkRktYMU5hQzl2elVGMGRfZkh3c2wyWDdKMXE4eU1UaW1KQ0N3OVlvWi1mQmFjekNsSWFJVlZZRXJvam9IYXNCMkhSOA?oc=5","source":"Seeking Alpha","published":"2025-09-29","added":"2025-12-08T11:31:17.956631+00:00"},
+{"title":"The Trade Desk’s Blue Ocean Moment: How The DSP Can Rewrite Ad Tech’s Rules","url":"https://news.google.com/rss/articles/CBMivwFBVV95cUxNTzFjNnZ2WE5LSnpBU3paNW4zeTFDU0tZczRrSlRzcVZzZk1wMDZtNm02S1ZhSTg3RmpZY3RZRTRBaXN5QjRLUW9lSXk4QVBvRi1wbWFDcm5MSjJBYjd6dGxVTDhMaGh2aFVRSlVZejBUR3ZGM21hUTgwbHE1VnliakJTZnpkbVdWeTZvTjl0azlZMEtiaFVOM2xoOFlPTnV0MFpkOVkycURPYjZ3T1pUSnNFUDJXT1NtZDRBZ1Ewaw?oc=5","source":"AdExchanger","published":"2025-08-18","added":"2025-12-08T11:31:17.956609+00:00"},
+{"title":"OSN, The Trade Desk ink data-driven TV streaming partnership","url":"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY2xpQ1pvYURwOThhZEM4Mk1GR0Npd1FUT1dhc2ttUVdiRmQwLTRIZTRMSTdtQk43NlNZZi0yM0hNbWtySF9oRzFyaGlUcXVmbDhZc0tnUUh5MndYbnFvWTdTTnV5N0diOGs3dnRtNXBuVUNzQmNLSUpnVlE4dDE1VnJaRGx6LWQxLVRj?oc=5","source":"Campaign Middle East","published":"2025-08-11","added":"2025-12-08T11:31:17.956718+00:00"},
+{"title":"CSEA Africa’s Data Future Fellowship 2025 ($1,500 stipend)","url":"https://news.google.com/rss/articles/CBMihgFBVV95cUxNbFIzRXh1T01pdnFHNXFrWUVER1c4ZEhYUWREWFAwakxxZ09VSnp6d2hpMjlidFpqbkFyOW4tYlQ5QjEyU2lnSHdmcmtTSXZORVVSbm9RVVRHNnUwYmpMbjhTRzUxQTBZOXk3eUE5aThIVk5qenExVDVxOERHakVHV3FWemUtQQ?oc=5","source":"Opportunity Desk","published":"2025-07-10","added":"2025-12-08T11:31:17.956701+00:00"},
+{"title":"Marriott Is Deploying a Front Desk AI Tool. It Took Time to Get it Right","url":"https://news.google.com/rss/articles/CBMiowFBVV95cUxOTUNaQ3ZmMVBYUEwxdGhpNFhMMmZRelBOR3BXQm9aZ2h5QUNnTXZPenB5STlsZDcxbW05REs4YzdyRzV6b3lQSk9pMmgySzFBb20xYy0xR0NxWnp4OWptX2ZyV3A5YWVuUzMwZHlCU2tpNzN3cHd3Y0VNZldNYjhCMzYxaVFMWF9LYTRhQjlZZVU2dl9xYlIxdFhmemRoUzNSeVZB?oc=5","source":"Skift","published":"2025-06-04","added":"2025-12-08T11:31:17.956697+00:00"},
+{"title":"How We Revealed Mega-Polluters Taking Advantage of Green Loans","url":"https://news.google.com/rss/articles/CBMimwFBVV95cUxNZGRWTXpvNzJCc0hjQnAwVjUzdk9VNm0zb2k1SUp3M3dzZ2UtZndveDBuejc5alhudFBkVER4cUFDMTVGbW9RMFFpME92YjJPYXJURmR0YVY1RlJoUnUwTjRDSHliRk5LRnFvWmZHVVcwWGFjd0VmU2xZQ3h4U0ZSSndKTFJXclBpZXpBQXVjbmF2MzY1dDJxVGRlbw?oc=5","source":"Pulitzer Center","published":"2025-05-20","added":"2025-12-08T11:31:17.956600+00:00"},
+{"title":"The class of 2025: By the numbers","url":"https://news.google.com/rss/articles/CBMigAFBVV95cUxNMXYwZGMwNnB6LXBTOW5JZUotQXZJTHRhZm9SMDRxUHdpR0xTMlpfSWVDbnRQbVYyV3JsNkpYOTRESWVKVWJycGlaVllCTFF3aGh5TV9MRXVjMll0cVoycml3UF8yY2o3QVl2VUM5NFB2eHd5NWpsN3ZWbF82bGFiaw?oc=5","source":"Yale Daily News -","published":"2025-05-17","added":"2025-12-08T11:31:17.956673+00:00"},
+{"title":"Lowey Dannenberg Investigates Consumer Profiling by Data","url":"https://news.google.com/rss/articles/CBMilwJBVV95cUxOUW45MGFQdmNaejdQUVhCUHhBcjRkbXQ5V2RVRS13a3hyRXpYaWxvYlBlMFAxdmZaSEtaaXVIVnNpb2dVNWl0SWstX0xELUxqNGZPb1RjbjhNaGFfamllTVNPTzBEVi0wOXEtQVlIelU1M0FIUHBOa3M2Zm1rX1gxYjQ5RnVLU0RxbVo3aC1wNS05bV8zT2hZLXF1UmZyNVRlYWE0WWRLNkViUnRKYmZRSWstSHpaOFFydHhjNjVESk9FTG93c1ZJdDFVMzZpQlYxU3B2TXNnSDE3YjBhWE4xWm1CaWJyQVRaT0wzQWhnYVVFSVFCRTNmZXNORUJCQjFuMkdNOW8wdEhlQ3ZoNzBOeXEzcDQ1cWM?oc=5","source":"GlobeNewswire","published":"2025-05-07","added":"2025-12-08T11:31:17.956688+00:00"},
+{"title":"NIQ announces global data collaboration with The Trade Desk to enhance audience targeting","url":"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV1BwdkpyYTVJZmxiZURHaHlSOUg0THpSVktHSlRmMDZkWEZfbnpxSXdWRktqaE9mRUJmVTJEVEpBSU5CaTh2VTFXYmIxbkh2SDJicjdOUTg1aWE4bGVpV2RodnN1dVJsWk5wRUlLcFM3cDB0ajFxb0lPblM5TF9tVzZsLVlCblVkRHJzaWlxS1lRTW5BVEl6a1hNTkxHdWdhdE16YVVvSldEX0tDMkZTeGZBRVBVNTZwdnpPZDFUNEphNEZHVHVMOWdneUMxVDZYUlI0QVdQRDBQUUprVWpn?oc=5","source":"Business Wire","published":"2025-04-28","added":"2025-12-08T11:31:17.956645+00:00"},
+{"title":"UID2 Case Study: How Metricon boosted leads with omnichannel first-party data","url":"https://news.google.com/rss/articles/CBMinwFBVV95cUxONzU5UHJPZk5NSzNUb05PR2tTNjVfR3paX19TWkVUWnpfbEh0UWRlU1pYV1gzUllic0JQVW51dngzWmlTTzl3bzZ2YVJSQUNEaDdJM3N4LXhYOTcxNDVhSnpwZjRxLVU2aXJvUGlPMTBKUkE2VTRUc1JnODJ1aEVzM0tPR3BQYkhybjBULTF4VXVqV2w2eGpOS1o2SHNVWjg?oc=5","source":"The Trade Desk","published":"2025-04-26","added":"2025-12-08T11:31:17.956627+00:00"},
+{"title":"Capacity Accelerator Network (CAN) Data Science Fellowship 2025 for Africans","url":"https://news.google.com/rss/articles/CBMifEFVX3lxTE8taGdvajltcFc3X05fblA0dHRzRnVoaW9VOHptSm9fTU5pSm4tT05DZlB2LVRIeDdhV3Q2QUJwbGpFLUZVM2lFQ2lueXI4endzLUNBTTNoNUpzYW43b3JkQktqOFZIeWQ2ZUE0ZV9OSFpZN0FUMW9CVi1uejg?oc=5","source":"Opportunity Desk","published":"2025-03-28","added":"2025-12-08T11:31:17.956726+00:00"},
+{"title":"The Trade Desk powers up with data-driven omnichannel strategy","url":"https://news.google.com/rss/articles/CBMinwFBVV95cUxPODJnUzZLWXM5YUJhRlpUaXpjNHNMbmZxUkhkVWtpUWdRN2ZGdWZYMkxRc0lBSDBoT01UeHR6dzVEQzRpSGxIM3p6czMtZkFMNHBEdm5aR2lwNlNtbDhKTU8zUF9CSk54REhOQTZXZDJ4OU1FODA5eXFaUDhUS2ltV0Nhcjd6T0h2ZERxcVB4UGFDX1hnWTYwMXY0NU9PdWM?oc=5","source":"The Trade Desk","published":"2025-03-21","added":"2025-12-08T11:31:17.956653+00:00"},
+{"title":"Power your CTV campaigns with linear data","url":"https://news.google.com/rss/articles/CBMihAFBVV95cUxPcGE3eWZqclNoZTlVZjFXUzhhVmh6ZWV3U25rNDRHejdmMHhfV2lQcEFIM1Zmams5cFI2czB0WjZhUXJKQkJCODlHUVd1WS1HX1l1dTJKVDFOWDB1YWtDcVMxZkxYaDdpNmN0Y3JWSzNJYjZiWTZvN1FMbWtyclhzRGV0LVg?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956666+00:00"},
+{"title":"See how CTV and retail data help double sales","url":"https://news.google.com/rss/articles/CBMinwFBVV95cUxPWU1YTEZPY3dTVW1mZnYwU3lzbUZ3alpzV3ZNQW1pd2owSHFQZzZwQ3Vvdko5anJydnFYOUJoZVRqdnZqTGhGOVB2TTZLSmNsekRWX0VlYXJ1WHBwdzZKQU9TbVlyTEg5WHJ4NE1WaXF2bUI5amFlQnppV2NFMV9OaXZFQnQwdU51eldFZTVic0NkVEd5Vmh4WEhZYjN1Z0k?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956655+00:00"},
+{"title":"Cornetto scoops sales lift with weather data","url":"https://news.google.com/rss/articles/CBMikgFBVV95cUxPMlBoSGpDSWtLQ2FWRjJKSTJvQU9RWUZwUmlIbC00ZGZJUWxoSUNkamp1SXQzZ1J5Zm02NkNqbjRVdzBvOWg4TFhia1czMWVjNXRjVVhVcW54ZElQQ3ZMSm9VQ2FMUXhNNjROS3MxTnBtamhJZVJzN25rc3hXeWlpaVkwY1ZmN09adm9aTlhUTmFsZw?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956675+00:00"},
+{"title":"Wyeth nurtures healthy brand growth for Illuma across Taiwan with data-driven, cost-effective campaign","url":"https://news.google.com/rss/articles/CBMimwFBVV95cUxPaGxHQnNoSDBYU2tkcW5rZlR4clFmdlRTcF96aWtwYkhEUlFVLUdTVTJWYWluTXJieFR0em5VQWtSSldhVlIzNElMemFvVTBrNTFvLWZIN2NUcWpjZEdWeU1IaTNTMV9ZdjNJWFZpckt1RjM3Y0RPQ295QzRqbVo2Q0l6UTlJblBlMnRMaUJGaWFaQVgwSFB2MDBNZw?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956658+00:00"},
+{"title":"Unilever’s recipe for success with retail data","url":"https://news.google.com/rss/articles/CBMikgFBVV95cUxQYWRQaXVObktjcFItNklKekM1cGotVG9Ia3VtU3ctcmM4LVhUTnZTU21YQ3FlR1dUZEFrYnNGbjZFcVZpYm84RXVHOW9vUVc5b25yLWlkOHlhVjJBWjZlNXAyTk5kY3JoU3JNRldCdW44VFlvUVg4UHZUT0VFV095V1l5MXpXX00zbTJ0SmhGTUZHUQ?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956651+00:00"},
+{"title":"Samsung upgrades on impact with data-driven targeting strategy","url":"https://news.google.com/rss/articles/CBMipwFBVV95cUxQa05nZlR2QlhZY0cxQTJyVUNjMGlWSzJ3ZE5rUlo2a2lzT19qYnFfeDQzY3h4aWNjeXdNYWdzYzlPUUNMOWZsZWVEcEFVb3J6S25tbUp5OU5ZbjgwRzBJVDJjd3lJbEo1QTg5YmQtN0M5YTg4TVNUam54eEl3c2wxZDFLUUN6eU1CNGRmaFdsZTRrN1ZSZ2d2R1VkbkZwMXF3VEFLSFdkNA?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956649+00:00"},
+{"title":"Kellogg’s boosts sales by 187% with a BVOD campaign powered by retail data","url":"https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ0FKOXNYTzVvOUY5Zkt1Rk1oWTQ3RTh5U3htcVNWaFZzLXlvb1RpTllCOTZZaDk0OFdpRkM0QkV6MVlKYzZzZ3dZWmc0S0dQZ1liZGNwNjJmdUJJa1k5eHlsTUJRMVVYaVlSdE9pTE1fZVJfbGlTeVpYLWJqOHctN2JmYjNxY0lFa3hEdmtSa2Q3N1RtNUE?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956693+00:00"},
+{"title":"Coca-Cola serves up success with retail data solution","url":"https://news.google.com/rss/articles/CBMimwFBVV95cUxOMExGTW9FTDcybHR0a1FYeW9IZ01FOTdKeEVYRnVrYnRtSVdrZzRpZHJqd1BJbDBZekJmYndiaXoxakNkdmpCSHI2UVdjVW5KdllXUmd3UHNTOVV4aVFJNWdVNkt1Q3NWUzZ0WjkzV2dlM3FFcXlmdmw0anJpdUpHQ00xbmphQV8zSk1CSVE0Y2hObDJMUnRMOW5RMA?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956641+00:00"},
+{"title":"Data & Measurement | Resource Desk","url":"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9SblZzV29XbFN4ZjNuTklURGVlY2VXeF9jMmJ0NTg1S1JNTm5ReHRwRGd3a0RFdHVhOFRrUG1oRWI5STZyamFQNlhtT0RuVkxPZGE1b3Z3NmhlRF9oM2tlQ3IxUFM3Y0pR?oc=5","source":"The Trade Desk","published":"2025-03-18","added":"2025-12-08T11:31:17.956603+00:00"},
+{"title":"The Data Desk - Complaints Part II “I’m Not Complaining But… What About Fraud and Scams?”","url":"https://news.google.com/rss/articles/CBMitwFBVV95cUxPcVd6QnhWbFhVdEdSMVQ5OHoxSGVWUThibWE3eWRQazNFQTZRRmJNcUtpQjlwQUV3MEFPNjk0TGY0bUNJeEEwc2FWUy1JWlhWdEVZT1hFdlZSUklub0s5d044SFhlNUdlTU95WXJOZi1hZzdhVnF0R2lTUzRRWndFOFA5aXFTMFV4b2hXb1dKUjNvTi1nUGlJMVZZRjA5NkFOMXkxRUpOT1ZXMG9WWWprY00tLThCOTQ?oc=5","source":"consumerbankers.com","published":"2025-03-12","added":"2025-12-08T11:31:17.956607+00:00"},
+{"title":"Trumid zeroes in on data automation, appoints Ryan Gwin","url":"https://news.google.com/rss/articles/CBMihgFBVV95cUxOM0hUaG9CQlEwMXRwdDh0QTctcGNVUjlKaExTQm9oRmtNS2plVFJ3emw5OXBBWTdMckluYnRsTnp2QmJkMzM5eHRPdDNFcXJwd1lsT3NuRlVvX1F1MndSamY3U1ZUQTlLWWxSUER6b3VtNzMxdWIwX1owcXdLT3lQTUIwV2xoQQ?oc=5","source":"fi-desk.com","published":"2025-01-23","added":"2025-12-08T11:31:17.956683+00:00"},
+{"title":"Jefferies picks Propellant for FI data analytics - The DESK - The leading source of information for bond traders","url":"https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSnJBd3JVazFjOE5VQmI2SVByVmVwbVRYQ1B5TUtwRzgtSGVqbFQ5MUtyMHo4VEQ0U2VDdVQ5R1U3ZVFqUGZmbENtNnRTNkNxUFdMZzduQ2w1Z0xDejQ1NWxuS21oekFOSTVSa055VWxfcmxNd0drTTl0cE5uQQ?oc=5","source":"fi-desk.com","published":"2025-01-23","added":"2025-12-08T11:31:17.956703+00:00"},
+{"title":"The Trade Desk Acquires Data Company Sincera","url":"https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVc2NXU5NW5MZXFRYUNUdFBwS2FpeWNqbTFmNl8tT05HQWlpanYxVEI1RlZBcGdSa0VUSks3TTJlaXdRcExuTVR0NzdUa05ITzEtb1doN2EyOWZ0a3FRaEJKeUw4bW0wUm96aWJFN0RpQVlVRExqUVZzNjZfeGlXVThBWXNMdw?oc=5","source":"CDP Institute","published":"2025-01-22","added":"2025-12-08T11:31:17.956711+00:00"},
+{"title":"Trade Desk buys ad data firm Sincera as brands seek objective insights","url":"https://news.google.com/rss/articles/CBMioAFBVV95cUxQYmpTSWZXYVBYZlB3bHFxY1hjQVNFZjlZQ1FMc2hwLWMybUxMcHludnNsRk5DYjlzTlk2ZWFPNFVsQnNpZWFmMEJYelpaX3NTVjVZWDd6OGVaazdYQU9kVndHVW9LMkdNNkZMTFZvTDNHSHRaZXFsaTcyaUNrX3YzWmRvWHhmTWw5Q1ZLTjlwVGlIRkgwRkhidmEtaFc2YUNV?oc=5","source":"Marketing Dive","published":"2025-01-17","added":"2025-12-08T11:31:17.956690+00:00"},
+{"title":"The Trade Desk announces plans to acquire Sincera","url":"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS18zVURpSWFjcHJuTnlYc1NSUkY2UGxoMk1RTWVPRFhzUm5tTTlveHc5SGw3NDItZHJTSVdxSzl0N2Yxb1BTTVdvSVg0MWRNM19WZHZreGVRRGdLdUNRZGNhU1RrRng4YUNPU05Tb1pVUjZLOG9vcFJsaWR4dU4zNVlZTkZOSzhIVnFz?oc=5","source":"Digiday","published":"2025-01-15","added":"2025-12-08T11:31:17.956716+00:00"},
+{"title":"The Trade Desk Is Acquiring Advertising Metadata Startup Sincera","url":"https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnhSN19GQUp0UkhodTJra2lPdEpxdUJ0NTZzbHJuV3oySGh6U3BxRnYwU3UtcmNuUFNQYVBNbjROQTZWeDZGNGM4VGxubXdHVkE5WUQzT2lpV3BEZUY3VUJiQXFjbWlGSzNHVmdlMlJYQm1fWVRaOVBHUVFHLUxDWllUR0c3YjdQTE9NVjVwbUFWU2V0eERxQjk4dmQ4V3k2T0N6V0lxVWlvWDVK?oc=5","source":"AdExchanger","published":"2025-01-15","added":"2025-12-08T11:31:17.956707+00:00"},
+{"title":"The Trade Desk Acquires Ad Data Provider Sincera","url":"https://news.google.com/rss/articles/CBMid0FVX3lxTFBLR3F6dFc0TWlKS3lhbTRodXRNRDF2M1VqcklHMkpxTzBlQjNxQXlYYVpnYU44Z2dlejRJZXJaUW8zRUtzM1lKbWoxNTJZdVZjODlTc3NyMEFnTnltTGNkOHpWbUlYbkRiMXFpLUN0UENjYWl4SF9F?oc=5","source":"ADWEEK","published":"2025-01-15","added":"2025-12-08T11:31:17.956709+00:00"},
+{"title":"Albertsons, DoorDash boost advertiser offerings around data, measurement","url":"https://news.google.com/rss/articles/CBMitAFBVV95cUxON21OaW9qTkJLWDJvZThKRU9VQ0tDekw4TTE4dnpiazUzLTQwOExGTkRfS2lyR0drZHJHM2tKdmdpZWFqSmMyRUJWX09iRmhRaGJiMWhJSE4xSDJDVWtMc2pqVG1leEVsNWVSWTlhUG9yaTlULVNicGwtWGJIQVlKTFZBRnpRNThGOUZwS3EzTUpxOThJZVZjMHlwNjNmVnlVbjlPbXVLajhwS1g4QTYzR2NvNjU?oc=5","source":"Marketing Dive","published":"2025-01-07","added":"2025-12-08T11:31:17.956720+00:00"},
+{"title":"How to maximize retail data this holiday season","url":"https://news.google.com/rss/articles/CBMijwFBVV95cUxOUW02MVVTbzFseHkyTlZOVXFzNU5SOU9idXVNX3U1MVJISlhGMzlzWGVsaERDeXQ5RUUzTFBwc3dUb0RLYUIyQ0MycC14MVRmdFNSb0pBTzJsQzRGRk5lcUE2Y1pPakZENlpRSGtSdzRDdERjeWtLcVlRWnM2b3hNUzhTYVhhZHVhY2wzUHNwYw?oc=5","source":"The Trade Desk","published":"2024-12-17","added":"2025-12-08T11:31:17.956722+00:00"},
+{"title":"See how The Herald’s pages have evolved since 1891","url":"https://news.google.com/rss/articles/CBMinwFBVV95cUxQREhBSWFURi01YlpnNmtnX3hvVVBZemwydHc3ellGczhpSk9wSjV5bjYzbjV3RmdCWlhMektjdWdIUkJHVU5tM0VYNjJJVU82Rm1jQkkwLU1oWG5QN0gzUDllVzRDYlZaa3pLZ3NnMTVPNTZzTmloLWEwRUFvRGhzbDhmU2JWemV3Qy1sV0ZSZ2kwT2VESi1TSnVRZER2b1U?oc=5","source":"The Brown Daily Herald","published":"2024-12-04","added":"2025-12-08T11:31:17.956761+00:00"},
+{"title":"The Data Desk — Cumulative Impact: What Do Reg. II and Overdraft Proposals Mean for Consumers and Consumer Banking?","url":"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeU1VNXROal8xbmNDc3BIeFhWSWw0dmx5T3FTY1hfR0lxRDRvSE1jVDBIZ0NuZ3pkWV9pODV5UnBSaFY5RGNvTmszcS10YWJVLS1XaVdHZFByd2VNZEZlTGw4TGRtS1c2dHc1bzYxY2w0dDRNWmh4LV92OWxxTlRzTXZTam9aTU9XYlJUcC0xcHdoMVhJbVhJM1VGTExWSWVUUUQ3Zy1CdjNUN3ZkcGxWN0tnSkJWc1VDRUhreXZYUmVqRUl4UWNSMFBsbUd3UC1Rc3FvSjVZWUZRSUNm?oc=5","source":"consumerbankers.com","published":"2024-12-02","added":"2025-12-08T11:31:17.956685+00:00"},
+{"title":"The Data Desk — Complaints Part I: “I’m Not Complaining But…?\" Refocusing the Regulatory Lens Using the CFPB’s Complaint Database","url":"https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQUxaYlh4bld2bjlsWTQ2dzJGbkxuaUxGUHE1cHh4WGp6YzRQOG5Tdkh2UmRucXRVOUFFRjFiM01sLTNCNjd1WUR6amstMnRIVER0cGxON3lRamtSYnFXb0lpMDZLeXB1TmJtd0F1QVZicHpHZUdaNUowQ2h2S1RtdjFZZm11VHBhTEItekttVlkxSnlIZlpRbkg1SXgxbHhpX2RQS292cmlTekZQQVBlTkEwajZGSHdQbnViS3pNd1JnbkZMT2R5U09rb0ZQc3R0c0NXbHVwNU85WXdpUk9RWW9MNmt5NGpBSWc?oc=5","source":"consumerbankers.com","published":"2024-11-20","added":"2025-12-08T11:31:17.956695+00:00"},
+{"title":"CBA Launches the “Data Desk”","url":"https://news.google.com/rss/articles/CBMieEFVX3lxTE5HVjFmVmRmdmVaWmk2UWtvcHk4LV9VUVpyM0ZRV296ek5GRi1WTUt3REJfSjhDTkN3NGRyODdJOGdBLTN6RjRIb3paQ1MwSERqdFRwVGNDc1Z3bl85OFdmRzJNcjB1am12cGRBRF9aUHlvb2s4UDdYTw?oc=5","source":"consumerbankers.com","published":"2024-11-20","added":"2025-12-08T11:31:17.956647+00:00"},
+{"title":"WATCH CBS NEWS AND STATIONS’ “AMERICA DECIDES: ELECTION ’24” TEAM COVERAGE ACROSS BROADCAST, STREAMING AND DIGITAL","url":"https://news.google.com/rss/articles/CBMimgJBVV95cUxQMVhQY0o5MzN3NE41WHlIdExPTVVCaXVxVjJMazlZejF0cFJYZ1c4RTdvNTJTMGVXc1VNMDRqVGVQeldxUldlbG04bnRsMk9qcjBrcFV5ZkowdDFaR1lfUWU1TVRGRmhpMkVUOUZWVTFib1MzejEyeXdJcW5hNHBHdmlvYU5LYk9SVW5TQ3QzbWtfbWYxU3VnV1dCakpoQ2RoRTZIb0ZZdmtBbWJZTGJtRWk0blZHcVpSOUtBMFBPalFQODR5M2h2U01CeTl5M201U3l5dkl6clp6Wkl4ZWpMbzE4LWxXNWpoRk5WT2xYSUlTbl9tdWxpV3RNWDdORnhqdDRXYmZLeVU4QU1BOTdJVjJIMWR6Umo4TXc?oc=5","source":"Paramount Press Express","published":"2024-11-01","added":"2025-12-08T11:31:17.956766+00:00"},
+{"title":"Discover the benefits of AI-powered retail data","url":"https://news.google.com/rss/articles/CBMijwFBVV95cUxPUG1jbkFQQ2JJZVltczctQUJndTRuVWYwclpEU2ZtNkRBSjR5S0tQUFhNRTd0dnNoa2FTa195LUQxMzdDdERnV2o1VzFodXh0Vkd0YVIya19ZdUhLeTBKeDNRNXkyQTN5MThlNjB2WHFzQ1ZCcUJabGRaV3lIblA4bEtndGgxcl9KWHNCV0hXWQ?oc=5","source":"The Trade Desk","published":"2024-07-30","added":"2025-12-08T11:31:17.956754+00:00"},
+{"title":"Boiron boosts return on ad spend by 2.67x with Kroger retail data","url":"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR0dTa1NWMkg2WWtVdmtYbmNKVG10NTZlWm9pSGJfbHVPd3RINDQ5ZWxlZGh0MzhFTDVHakE2SWRKdlNUdXlPNzhJeEU3eGVsVHI4NTMtSVhXUDVHdFVJMVdRclpVVm5zN2tIZEVUend3d2RPNHNhQWlhYXh2LUZIX0JKdEh2cEdvZS1VMzJHSWhfOFN3NXRlVURadW9VLXMzSDdzVGgxMUQ?oc=5","source":"The Trade Desk","published":"2024-06-04","added":"2025-12-08T11:31:17.956747+00:00"},
+{"title":"ICE: Optimizing the data pipeline for buy-side trading desks","url":"https://news.google.com/rss/articles/CBMijAFBVV95cUxNM0pkM19NMG1uZVhucFV6V2VyZWtybjJ4WllWV1pZclROZmNJN1BpU05ZVEpIVFQ5QmZOemlKNE1qZjFCTXIzQ2xIWnBhcC1PWEdmd19tUGIzQ00zZzRUOGk0eWNpX0ozeUxrTXk5d3g3c0U5VjBEUU9hUGpsSHNZbkVyNjlIOUdrMGdpOQ?oc=5","source":"fi-desk.com","published":"2024-02-29","added":"2025-12-08T11:31:17.956765+00:00"},
+{"title":"Andrex rolls out retail data to achieve 5X ROAS","url":"https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWpURmk5Z24yVEludWZpbm15RnFtOEtYdjFZaHVfb1pST1Q0UUJKRkNvZGctRGpscTJVV0Raay1MZGZQNTBFNlpFdExxdFhxaGFqSHdzTTVrTXJPZFBsSkpHZk1jSVJVcGdkN3ZXcktRVDdMWmVuckl4MUJqTUlyUzJSeS1VZ0ZVSDlDMTBMTTRZVjBzVXM0dzBaSTAzYjJSdWNSTVh3QkNXTmppU0VSVXNPZw?oc=5","source":"The Trade Desk","published":"2024-02-28","added":"2025-12-08T11:31:17.956763+00:00"},
+{"title":"How The Trade Desk is evolving its approach to first-party data and IDs","url":"https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzdHWnE1RFdwWmxiQXo5REo0MW1XRkJZbDR5NFkxdnRRMFMwb1lFSWFSdFVxVFhYWXgwZ1pqenpySHdnM2hLWnZTcTUxLW5EdkF1R3JlNGF2MjRNWTdzUFBLRnNOMFNQRFNEMUVkQjlVdWRjV1p6MEtENFhKbG44THlENFMyNzBTNFN4cmkzSVIxZmlTdnBsTUR3QmJFcXFMSVRFMg?oc=5","source":"Digiday","published":"2023-09-14","added":"2025-12-08T11:31:17.956756+00:00"},
+{"title":"Question about sludge? NYC’s Open Data Help Desk can help with that","url":"https://news.google.com/rss/articles/CBMibEFVX3lxTFBDN2NxMEZfNU05dTVvd2R0QkZYYXp3SnpjeEkzM3Z4YTdYeElPWHVYQjFMTjRYeng5QkU2V0tnSElUUmtPcjBYZTVIOWFKbmRINmFxQ3lPZ1FOVVdtVnBjZjczVUJ3alloZXh3Vg?oc=5","source":"StateScoop","published":"2023-08-31","added":"2025-12-08T11:31:17.956752+00:00"},
+{"title":"Reach the right audience with retail data","url":"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMTZhVm9pSGdCUXNiSGhnaTg2RUN0Zzd4dE1WQ2NyUTJjRHJGUThJanRTa3JaT2dYOVZkSnd2dE1XUjFjeVNPaHFucWNOWmtjSnRsRnltWjBEeHlVMlVYTjU2SUZ0elVwaE5SUnNobnRTeFdmSTZtOEk2bnJEM3VnSmVERkVUWHlMdmlJ?oc=5","source":"The Trade Desk","published":"2023-06-27","added":"2025-12-08T11:31:17.956741+00:00"}]

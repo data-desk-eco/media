@@ -1,26 +1,25 @@
 # Media Mentions Tracker
 
-**IMPORTANT:** Be FAST. This runs in CI with strict time/cost limits. Do not explain reasoning, do not summarize, do not add commentary. Just: read files → compare URLs → write output → done. Target: under 60 seconds.
+**IMPORTANT:** Be FAST. Target: under 60 seconds. No commentary.
 
-**Your task:**
-1. Read `data/mentions.json` - existing tracked mentions (PRESERVE ALL of these)
-2. Read `data/search-results.json` - new search results
-3. Add genuinely NEW mentions from search results (deduplicate by URL)
-4. Write the merged list to `data/mentions.json` using the Write tool
+**Step 1:** Read `data/mentions.json` (existing entries - you MUST preserve ALL of these)
+**Step 2:** Read `data/search-results.json` (new search results)
+**Step 3:** Merge: Start with ALL existing entries, then add NEW entries from search results (skip duplicates by URL)
+**Step 4:** Write merged list to `data/mentions.json`
 
-**Output format for data/mentions.json:**
-[
-  {"title": "...", "url": "...", "source": "...", "published": "...", "added": "..."},
-  ...
-]
+**CRITICAL:** The output must contain every entry from the original mentions.json plus any new ones. Never drop existing entries.
+
+**Output format:**
+```json
+[{"title": "...", "url": "...", "source": "...", "published": "YYYY-MM-DD", "added": "ISO timestamp"}, ...]
+```
 
 **Rules:**
-- PRESERVE all existing entries from mentions.json (some are manually added)
-- Only add genuinely new mentions from search results (deduplicate by URL)
-- Sort by "added" date descending (newest first)
-- Maximum 50 entries (trim oldest if needed)
-- Each entry: title, url, source, published (YYYY-MM-DD), added (ISO timestamp)
-- Clean titles: Remove publication name from end of title if it duplicates the source field (e.g., "Article Title - Mongabay" → "Article Title" when source is "Mongabay")
+- Keep all existing entries (some are manually added and won't appear in search)
+- Add new entries from search results (dedupe by URL)
+- Sort by published date descending
+- Max 50 entries (trim oldest)
+- Clean titles: remove trailing " - Source Name" if it duplicates source field
 
-**Exclusions:** Do not include mentions from the following URLs:
-- https://news.google.com/rss/articles/CBMizgFBVV95cUxQdEt0bVVKU1cxVjZUb1E2NG1OTHU5YmRXbkxSb3BfcGVmanVKRTZYSEFsMzlaUEN6ZWZwWHQ2amhkT1JGNTNteWR0NTdRRmNlMUtKajFRR0lVN19GYkZ5ZXNGTVZVb2dQTU95dTduQ3Q0RWRXdVFBTFQzSTJRLWJiT20tWWpseDJZVV8xX1V3ZjNIT3p1OVFWSDZTR09tX3RKZGJadHFXc1kwbkNvMUI2Q1JHaER3OGZnR2NsOGhPYTNVTC0xNmJ6Y1JJR0xiZw?oc=5 (Africa Sustainability Matters - duplicate coverage)
+**Exclude these URLs:**
+- https://news.google.com/rss/articles/CBMizgFBVV95cUxQdEt0bVVKU1cxVjZUb1E2NG1OTHU5YmRXbkxSb3BfcGVmanVKRTZYSEFsMzlaUEN6ZWZwWHQ2amhkT1JGNTNteWR0NTdRRmNlMUtKajFRR0lVN19GYkZ5ZXNGTVZVb2dQTU95dTduQ3Q0RWRXdVFBTFQzSTJRLWJiT20tWWpseDJZVV8xX1V3ZjNIT3p1OVFWSDZTR09tX3RKZGJadHFXc1kwbkNvMUI2Q1JHaER3OGZnR2NsOGhPYTNVTC0xNmJ6Y1JJR0xiZw?oc=5
