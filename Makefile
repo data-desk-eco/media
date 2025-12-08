@@ -1,6 +1,6 @@
 .PHONY: build preview etl data clean
 
-build:
+build: clean
 	yarn build
 
 preview:
