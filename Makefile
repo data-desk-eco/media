@@ -15,4 +15,4 @@ data:
 	@rm -f data/search-results.json
 
 clean:
-	rm -rf docs/.observable/dist
+	rm -rf docs/.observable/dist docs/.observable/cache
