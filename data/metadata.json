@@ -286,6 +286,6 @@
   },
   {
     "url": "https://www.washingtonpost.com/business/2023/11/14/russian-oil-sanctions-us-greece-turkey/",
-    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    "error": "HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=30)"
   }
 ]
