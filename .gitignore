@@ -1,4 +1,5 @@
-docs/.observable/dist
+docs/.observable
 node_modules
 data/search-results.json
 data/data.duckdb
+data/*.tmp

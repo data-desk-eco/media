@@ -4,79 +4,115 @@
   <script id="header" type="text/markdown">
     # Media mentions
 
-    Reports featuring Data Desk research and analysis.
+    Reports featuring Data Desk research and analysis
   </script>
   <script id="mentions" output="mentions" type="application/sql" database="../data/data.duckdb" hidden>
-    SELECT title, url, source, published, added FROM mentions ORDER BY published DESC
+    SELECT title, url, source, published, image, description, display_title
+    FROM mentions ORDER BY published DESC
   </script>
   <script id="main" type="module">
-
-    // Process data for the chart - group by quarter
-    const mentionsByQuarter = d3.rollup(
-      mentions,
-      v => v.length,
-      d => {
-        const date = new Date(d.published);
-        const year = date.getFullYear();
-        const quarter = Math.floor(date.getMonth() / 3);
-        // Create date string in YYYY-MM-DD format for the first day of quarter
-        const month = String(quarter * 3 + 1).padStart(2, '0');
-        return `${year}-${month}-01`;
+    display(html`<style>
+      .mentions-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
       }
-    );
+      .mention-card {
+        display: flex;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.025);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 4px;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+        transition: border-color 0.15s ease, transform 0.15s ease;
+      }
+      .mention-card:hover {
+        border-color: rgba(255, 255, 255, 0.25);
+        transform: translateY(-2px);
+      }
+      .mention-card .thumb {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.04);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      }
+      .mention-card .thumb.placeholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        min-height: 0;
+        background-image:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.06)),
+          repeating-linear-gradient(45deg,
+            transparent 0,
+            transparent 12px,
+            rgba(255, 255, 255, 0.018) 12px,
+            rgba(255, 255, 255, 0.018) 13px);
+      }
+      .mention-card .thumb.placeholder .source-mark {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1.35rem;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        line-height: 1.05;
+        text-align: center;
+      }
+      .mention-card .body {
+        padding: 0.9rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        flex: 1;
+      }
+      .mention-card .meta {
+        color: #888;
+        font-size: 0.78em;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .mention-card h3 {
+        font-size: 0.98rem;
+        line-height: 1.3;
+        margin: 0;
+        font-weight: 600;
+      }
+      .mention-card p {
+        color: #a8a8a8;
+        font-size: 0.88em;
+        line-height: 1.45;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    </style>`);
 
-    const chartData = Array.from(mentionsByQuarter, ([dateStr, count]) => ({
-      date: new Date(dateStr),
-      count
-    })).sort((a, b) => a.date - b.date);
+    const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 
-    // Display the bar chart
-    display(Plot.plot({
-      height: 150,
-      marginLeft: 18,
-      marginBottom: 40,
-      x: {
-        type: "utc",
-        label: null,
-        tickFormat: (d, i, ticks) => {
-          const quarter = Math.floor(d.getMonth() / 3) + 1;
-          const year = d.getFullYear();
-          const prevYear = i > 0 ? ticks[i - 1].getFullYear() : null;
-
-          if (year === 2022) {
-            return `Q${quarter}`;
-          }
-          if (quarter === 1 || prevYear !== year) {
-            return `Q${quarter}\n${year}`;
-          }
-          return `Q${quarter}`;
-        }
-      },
-      y: {
-        label: null,
-        grid: true
-      },
-      marks: [
-        Plot.rectY(chartData, {
-          x: "date",
-          y: "count",
-          interval: d3.utcMonth.every(3),
-          fill: "var(--theme-foreground)",
-          tip: true
-        }),
-        Plot.ruleY([0])
-      ]
-    }));
-
-
-    display(html`<ul style="list-style: none; padding-left: 0;">
+    display(html`<div class="mentions-grid">
       ${mentions.map(m => {
-        const date = new Date(m.published).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-        return html`<li style="margin: 1rem 0;">
-          <div><a href="${m.url}" target="_blank">${m.title}</a></div>
-          <div style="color: #888; font-size: 0.9em;">${m.source} / ${date}</div>
-        </li>`;
+        const date = dateFmt.format(new Date(m.published));
+        const title = m.display_title || m.title;
+        return html`<a class="mention-card" href="${m.url}" target="_blank" rel="noopener">
+          ${m.image
+            ? html`<div class="thumb" style="background-image: url('${m.image}')"></div>`
+            : html`<div class="thumb placeholder"><span class="source-mark">${m.source}</span></div>`}
+          <div class="body">
+            <div class="meta">${m.source} · ${date}</div>
+            <h3>${title}</h3>
+            ${m.description ? html`<p>${m.description}</p>` : ""}
+          </div>
+        </a>`;
       })}
-    </ul>`);
+    </div>`);
   </script>
 </notebook>

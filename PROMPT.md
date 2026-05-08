@@ -16,9 +16,9 @@ Data Desk investigates environmental/climate issues: oil/gas, fossil fuels, poll
 
 ## Relevance
 
-**Exclude:** "The Trade Desk", "Opportunity Desk", "CBA Data Desk", "Tiny Desk", hotel/service desks, trading desks, generic "data desk" mentions, thecradle.co.
+**Exclude:** "The Trade Desk", "Opportunity Desk", "CBA Data Desk", "Tiny Desk", hotel/service desks, trading desks, generic "data desk" mentions, thecradle.co. Also exclude NGO publications (e.g. Oil Change International, SourceMaterial, Pulitzer Center) — only media outlets republishing or citing the work belong here.
 
-**Include:** Articles citing Data Desk environmental research or from outlets we work with (Guardian, Examination, Bloomberg, Reuters, etc).
+**Include:** Articles from media outlets we work with (Guardian, Examination, Bloomberg, Reuters, etc) that cite Data Desk environmental research.
 
 When unsure, exclude.
 
