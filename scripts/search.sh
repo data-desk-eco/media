@@ -7,8 +7,17 @@ set -euo pipefail
 SEARCH_QUERY="Data+Desk"
 RSS_URL="https://news.google.com/rss/search?q=${SEARCH_QUERY}&hl=en-US&gl=US&ceid=US:en"
 
-# Fetch RSS feed and convert to JSON
-curl -s "$RSS_URL" | \
+# Google News occasionally returns non-XML (rate-limit/consent HTML); retry a few times
+for attempt in 1 2 3 4 5; do
+  RSS_BODY=$(curl -s "$RSS_URL")
+  if [[ "${RSS_BODY:0:50}" == *"<?xml"* ]]; then
+    break
+  fi
+  echo "search.sh: attempt $attempt returned non-XML, retrying..." >&2
+  sleep $((attempt * 3))
+done
+
+printf '%s' "$RSS_BODY" | \
   python3 -c '
 import sys
 import xml.etree.ElementTree as ET
@@ -38,3 +47,8 @@ print(json.dumps(articles, indent=2))
 ' > data/search-results.json
 
 echo "Found $(jq length data/search-results.json) articles" >&2
+
+if [ "$(jq length data/search-results.json)" -eq 0 ]; then
+  echo "search.sh: zero articles parsed — refusing to overwrite curated discoveries" >&2
+  exit 1
+fi
