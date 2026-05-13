@@ -179,6 +179,10 @@
     "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/world/middle-east/suspected-oil-spill-seen-satellite-images-near-irans-kharg-island-export-hub-2026-05-08/"
   },
   {
+    "url": "https://www.reuters.com/world/middle-east/uae-owned-tanker-leaks-some-fuel-off-oman-following-iranian-strike-2026-05-13/",
+    "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/world/middle-east/uae-owned-tanker-leaks-some-fuel-off-oman-following-iranian-strike-2026-05-13/"
+  },
+  {
     "url": "https://www.spiegel.de/wirtschaft/arctic-lng-2-wie-westliche-konzerne-ein-russisches-prestigeprojekt-ermoeglichten-a-75f86074-b87e-4ae4-be64-0e443591c2a4",
     "final_url": "https://www.spiegel.de/wirtschaft/arctic-lng-2-wie-westliche-konzerne-ein-russisches-prestigeprojekt-ermoeglichten-a-75f86074-b87e-4ae4-be64-0e443591c2a4",
     "og_title": "(S+) Arctic LNG-2: Wie westliche Konzerne ein russisches Prestigeprojekt ermöglichten",
