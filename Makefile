@@ -2,7 +2,6 @@
 
 build: clean
 	yarn build
-	@[ -d docs/assets ] && mkdir -p docs/.observable/dist/assets && cp -r docs/assets/. docs/.observable/dist/assets/ || true
 
 preview:
 	yarn preview
