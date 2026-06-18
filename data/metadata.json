@@ -303,6 +303,11 @@
   },
   {
     "url": "https://zerocarbon-analytics.org/energy/lng-lifecycle-emissions/",
-    "error": "no metadata via requests"
+    "final_url": "https://zerocarbon-analytics.org/energy/lng-lifecycle-emissions/",
+    "og_title": "Analysis: Implications of Japan's LNG trade- Zero Carbon Analytics",
+    "og_description": "Japan's re-sales of US LNG to Asia in 2020-2025 equal the emissions of about 17 coal plants in a year.",
+    "og_image": "https://zerocarbon-analytics.org/wp-content/uploads/2026/06/AdobeStock_687381056-scaled.jpeg",
+    "og_site_name": "Zero Carbon Analytics",
+    "via": "requests"
   }
 ]
