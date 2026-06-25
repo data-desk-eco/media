@@ -85,15 +85,30 @@
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2024-07-19/how-american-pension-funds-help-fund-vladimir-putin-s-gas-gambit",
-    "error": "403 Client Error: Forbidden for url: https://www.bloomberg.com/news/articles/2024-07-19/how-american-pension-funds-help-fund-vladimir-putin-s-gas-gambit"
+    "final_url": "https://www.bloomberg.com/news/articles/2024-07-19/how-american-pension-funds-help-fund-vladimir-putin-s-gas-gambit",
+    "og_title": "How American Pension Funds Help Vladimir Putin’s Gas Gambit",
+    "og_description": "US workers have indirectly invested in the highly specialized ice-class carriers serving Russia’s Yamal LNG.",
+    "og_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/it3teDg9XHV8/v1/1200x799.jpg",
+    "og_site_name": "Bloomberg.com",
+    "via": "requests"
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2025-11-21/biodegradable-plastic-debate-heats-up-as-more-countries-impose-bans",
-    "error": "403 Client Error: Forbidden for url: https://www.bloomberg.com/news/articles/2025-11-21/biodegradable-plastic-debate-heats-up-as-more-countries-impose-bans"
+    "final_url": "https://www.bloomberg.com/news/articles/2025-11-21/biodegradable-plastic-debate-heats-up-as-more-countries-impose-bans",
+    "og_title": "The Dirty Secret of Biodegradable Plastic",
+    "og_description": "More countries are banning plastics made with additives that manufacturers say can make them decompose.",
+    "og_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iphlQjZR6Uc8/v0/1200x630.jpg",
+    "og_site_name": "Bloomberg.com",
+    "via": "requests"
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-03-23/iran-war-missile-attack-on-ras-laffan-spurs-increased-flaring-satellites-show",
-    "error": "403 Client Error: Forbidden for url: https://www.bloomberg.com/news/articles/2026-03-23/iran-war-missile-attack-on-ras-laffan-spurs-increased-flaring-satellites-show"
+    "final_url": "https://www.bloomberg.com/news/articles/2026-03-23/iran-war-missile-attack-on-ras-laffan-spurs-increased-flaring-satellites-show",
+    "og_title": "Middle East War Spurs Emissions From Oil and Gas Sites, Satellites Show",
+    "og_description": "Experts have detected increased flaring at some facilities, highlighting the increase in greenhouse gases from the conflict.",
+    "og_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iGAnn70wvcjw/v0/1200x800.jpg",
+    "og_site_name": "Bloomberg.com",
+    "via": "requests"
   },
   {
     "url": "https://www.bloomberg.com/news/features/2023-10-23/occidental-quietly-ditched-world-s-biggest-carbon-capture-plant",
