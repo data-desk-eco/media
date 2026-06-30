@@ -199,6 +199,10 @@
     "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/environment/environmental-group-criticises-italys-eni-use-palm-oil-by-product-2024-01-29/"
   },
   {
+    "url": "https://www.reuters.com/world/asia-pacific/north-koreas-sanctioned-coal-trade-rebounds-un-monitoring-lapses-rights-group-2026-06-29/",
+    "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/world/asia-pacific/north-koreas-sanctioned-coal-trade-rebounds-un-monitoring-lapses-rights-group-2026-06-29/"
+  },
+  {
     "url": "https://www.reuters.com/world/middle-east/suspected-oil-spill-seen-satellite-images-near-irans-kharg-island-export-hub-2026-05-08/",
     "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/world/middle-east/suspected-oil-spill-seen-satellite-images-near-irans-kharg-island-export-hub-2026-05-08/"
   },
