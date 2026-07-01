@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://irpimedia.irpi.eu/flotta-ombra-petrolio-israele/",
-    "final_url": "https://irpimedia.irpi.eu/flotta-ombra-petrolio-israele/",
-    "og_title": "Una “flotta ombra” ha trasportato petrolio in Israele fino alla fine del 2025",
-    "og_description": "La raffineria di Haifa lo trasformava in carburante per i mezzi usati a Gaza. Le petroliere spegnevano il loro radar a chilometri di distanza dalle coste, per rendersi invisibili. Tra i trader più importanti c’è la società Petraco",
-    "og_image": "https://irpimedia.irpi.eu/public/uploads/2026/06/flotta-ombra-petrolio-israele-cover.webp",
-    "og_site_name": "IrpiMedia",
-    "via": "requests"
-  },
-  {
     "url": "https://capitalandmain.com/as-prices-climb-california-imports-more-gasoline-made-from-russian-oil",
     "final_url": "https://capitalandmain.com/as-prices-climb-california-imports-more-gasoline-made-from-russian-oil",
     "og_title": "As Prices Climb, California Imports More Gasoline Made From Russian Oil",
@@ -49,6 +40,15 @@
     "og_description": "Critics say the claim relies on a dubious interpretation of a law intended to promote natural gas and other fuels. An Inside Climate News analysis put the potential windfall at more than $140 million.",
     "og_image": "https://insideclimatenews.org/wp-content/uploads/2025/07/GettyImages-2198779781-1024x576.jpg",
     "og_site_name": "Inside Climate News"
+  },
+  {
+    "url": "https://irpimedia.irpi.eu/flotta-ombra-petrolio-israele/",
+    "final_url": "https://irpimedia.irpi.eu/flotta-ombra-petrolio-israele/",
+    "og_title": "Una “flotta ombra” ha trasportato petrolio in Israele fino alla fine del 2025",
+    "og_description": "La raffineria di Haifa lo trasformava in carburante per i mezzi usati a Gaza. Le petroliere spegnevano il loro radar a chilometri di distanza dalle coste, per rendersi invisibili. Tra i trader più importanti c’è la società Petraco",
+    "og_image": "https://irpimedia.irpi.eu/public/uploads/2026/06/flotta-ombra-petrolio-israele-cover.webp",
+    "og_site_name": "IrpiMedia",
+    "via": "requests"
   },
   {
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN3IyQkJtMk9qd2hLa0kxT01fNENNQk9aT1NXdnpaUkNhUjBDNDgwNFp0SnJRVEhwUDZXWU1xakR2MVJHR1VoMDNSVWp5MS04ZlZnaHBDOVdNdDY4YTFkalJFZUY2OEtYYUVIZks2bW9GSXh2dk1VMmtENEUxSEZFci1MUQ?oc=5",
