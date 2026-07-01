@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://unearthed.greenpeace.org/2026/07/01/christopher-harborne-jet-fuel-russian-iran-oil-reform-uk/",
-    "final_url": "https://unearthed.greenpeace.org/2026/07/01/christopher-harborne-jet-fuel-russian-iran-oil-reform-uk/",
-    "og_title": "Revealed: Reform mega-donor’s jet fuel business linked to refineries using Russian oil",
-    "og_description": "Christopher Harborne’s company AML Global is contracted to fill US military planes with fuel made by refineries that use Russian, Iranian, and Venezuelan crude",
-    "og_image": "https://unearthed.greenpeace.org/wp-content/uploads/2026/06/LNP_Party_GCR_027-scaled-e1782893976753.jpg",
-    "og_site_name": "Unearthed",
-    "via": "requests"
-  },
-  {
     "url": "https://capitalandmain.com/as-prices-climb-california-imports-more-gasoline-made-from-russian-oil",
     "final_url": "https://capitalandmain.com/as-prices-climb-california-imports-more-gasoline-made-from-russian-oil",
     "og_title": "As Prices Climb, California Imports More Gasoline Made From Russian Oil",
@@ -97,6 +88,15 @@
     "og_description": "Nederland staat garant voor de werkzaamheden van de baggeraar, die volgens critici gevaarlijk zijn voor mensen en natuur in de omgeving.",
     "og_image": "https://images.cdn.nos.nl/3/9/D/e/9/d/q2NDnUWLaiAyEzSiJf5VV79sSU2CyZTp55zqGH7/0x207x4000x2250-1024x576.webp",
     "og_site_name": null
+  },
+  {
+    "url": "https://unearthed.greenpeace.org/2026/07/01/christopher-harborne-jet-fuel-russian-iran-oil-reform-uk/",
+    "final_url": "https://unearthed.greenpeace.org/2026/07/01/christopher-harborne-jet-fuel-russian-iran-oil-reform-uk/",
+    "og_title": "Revealed: Reform mega-donor’s jet fuel business linked to refineries using Russian oil",
+    "og_description": "Christopher Harborne’s company AML Global is contracted to fill US military planes with fuel made by refineries that use Russian, Iranian, and Venezuelan crude",
+    "og_image": "https://unearthed.greenpeace.org/wp-content/uploads/2026/06/LNP_Party_GCR_027-scaled-e1782893976753.jpg",
+    "og_site_name": "Unearthed",
+    "via": "requests"
   },
   {
     "url": "https://www.amnesty.org/en/latest/news/2024/01/myanmar-new-data-suggests-military-still-importing-fuel-for-deadly-air-strikes-despite-sanctions/",
@@ -332,6 +332,15 @@
     "og_title": "UK industry still selling to Russia",
     "og_description": "British manufacturers have continued to supply Russia with key industrial equipment despite the invasion of Ukraine, analysis of trade data shows.After the full-scale invasion was launched in February last year, many of Britain’s industrial manufacturers quickly wound down their business relationshi",
     "og_image": null,
+    "og_site_name": null,
+    "via": "requests"
+  },
+  {
+    "url": "https://www.thetimes.com/uk/politics/article/reform-uk-donor-christopher-harborne-8t2z8ptbr",
+    "final_url": "https://www.thetimes.com/uk/politics/article/reform-uk-donor-christopher-harborne-8t2z8ptbr",
+    "og_title": "Reform donor’s fuel company linked to Russia-supplied refinery",
+    "og_description": "Christopher Harborne’s AML Global has contracts to supply aircraft fuel produced by an Indian refinery that regularly receives Russian crude oil",
+    "og_image": "https://www.thetimes.com/imageserver/image/6a650b09-d618-4f42-ab79-23a4065b56ae.jpg?strip=all&format=webp&crop=1600px%2C900px%2C0px%2C0px&resize=1200",
     "og_site_name": null,
     "via": "requests"
   },
