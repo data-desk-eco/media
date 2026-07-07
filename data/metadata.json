@@ -247,6 +247,15 @@
     "via": "requests"
   },
   {
+    "url": "https://www.thebureauinvestigates.com/stories/2026-06-05/the-war-on-iran-could-send-uk-pensions-up-in-smoke",
+    "final_url": "https://www.thebureauinvestigates.com/stories/2026-06-05/the-war-on-iran-could-send-uk-pensions-up-in-smoke",
+    "og_title": "The war on Iran could send UK pensions up in smoke",
+    "og_description": "Local government pensions have been ploughed into risky fossil fuel assets that are now in the line of fire",
+    "og_image": "https://www.thebureauinvestigates.com/cdn-cgi/image/width=1200,height=630,quality=82,format=auto,fit=cover,gravity=0.5163x0.6893/filestore/images/3E0Y8KG-1.jpg?mtime=1780419473",
+    "og_site_name": "TBIJ",
+    "via": "requests"
+  },
+  {
     "url": "https://www.theexamination.org/articles/battery-recycling-nigeria-lead-poisoning-us-automakers",
     "final_url": "https://www.theexamination.org/articles/battery-recycling-nigeria-lead-poisoning-us-automakers",
     "og_title": "Recycling lead for U.S. car batteries is poisoning people",
@@ -355,6 +364,15 @@
   {
     "url": "https://www.washingtonpost.com/business/2023/11/14/russian-oil-sanctions-us-greece-turkey/",
     "error": "HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=30)"
+  },
+  {
+    "url": "https://yorkshirebylines.co.uk/business/middle-east-war-threatens-stability-of-uk-local-government-pensions/",
+    "final_url": "https://yorkshirebylines.co.uk/business/middle-east-war-threatens-stability-of-uk-local-government-pensions/",
+    "og_title": "Middle East war threatens stability of UK local government pensions",
+    "og_description": "UK local government pension funds invest millions in unsustainable fossil fuel investments, leaving pensioners vulnerable to war risk",
+    "og_image": "https://yorkshirebylines.co.uk/wp-content/uploads/2026/07/fossil-fuel-pensioners.jpg",
+    "og_site_name": "Yorkshire Bylines | Powerful Citizen Journalism",
+    "via": "requests"
   },
   {
     "url": "https://zerocarbon-analytics.org/energy/lng-lifecycle-emissions/",
