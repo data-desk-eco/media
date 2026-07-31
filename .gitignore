@@ -3,3 +3,8 @@ node_modules
 data/search-results.json
 data/data.duckdb
 data/*.tmp
+
+# agent exhaust — never commit
+*.log
+.playwright-mcp/
+.claude/multi_agent.py
