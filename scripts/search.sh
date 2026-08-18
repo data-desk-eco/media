@@ -7,15 +7,25 @@ set -euo pipefail
 SEARCH_QUERY="Data+Desk"
 RSS_URL="https://news.google.com/rss/search?q=${SEARCH_QUERY}&hl=en-US&gl=US&ceid=US:en"
 
-# Google News occasionally returns non-XML (rate-limit/consent HTML); retry a few times
+# Google News occasionally returns non-XML (rate-limit/consent HTML); retry a few
+# times, and ask as a browser would — a bare curl agent gets blocked far sooner.
+UA='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36'
+RSS_BODY=
 for attempt in 1 2 3 4 5; do
-  RSS_BODY=$(curl -s "$RSS_URL")
-  if [[ "${RSS_BODY:0:50}" == *"<?xml"* ]]; then
+  BODY=$(curl -s -A "$UA" "$RSS_URL")
+  if [[ "${BODY:0:50}" == *"<?xml"* ]]; then
+    RSS_BODY=$BODY
     break
   fi
   echo "search.sh: attempt $attempt returned non-XML, retrying..." >&2
-  sleep $((attempt * 3))
+  sleep $((attempt * 5))
 done
+
+if [ -z "$RSS_BODY" ]; then
+  echo "search.sh: google news served no XML in 5 attempts — it rate-limits CI runner IPs." >&2
+  echo "search.sh: leaving discoveries untouched; re-run the job to try again." >&2
+  exit 1
+fi
 
 printf '%s' "$RSS_BODY" | \
   python3 -c '
