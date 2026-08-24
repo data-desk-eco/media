@@ -395,5 +395,14 @@
     "og_image": "https://zerocarbon-analytics.org/wp-content/uploads/2026/06/AdobeStock_687381056-scaled.jpeg",
     "og_site_name": "Zero Carbon Analytics",
     "via": "requests"
+  },
+  {
+    "url": "https://www.psehealthyenergy.org/scotland-methane-super-emitter-event/",
+    "final_url": "https://www.psehealthyenergy.org/scotland-methane-super-emitter-event/",
+    "og_title": "Methane Super-Emitter in Scotland: Air Quality Health Risks",
+    "og_description": "PSE Healthy Energy modeled a methane super-emitter near Falkirk, Scotland, and estimates benzene above health benchmarks up to four kilometers from the source.",
+    "og_image": "https://www.psehealthyenergy.org/wp-content/uploads/2025/11/Estimating-the-Acute-Health-Risks-of-1394-Oil-and-Gas-Methane-Emissions-Events.jpg",
+    "og_site_name": "PSE Healthy Energy",
+    "via": "requests"
   }
 ]
