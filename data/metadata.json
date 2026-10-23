@@ -108,6 +108,15 @@
     "via": "requests"
   },
   {
+    "url": "https://www.abc.net.au/news/2026-10-23/large-methane-plumes-above-chevron-gorgon-project-investigation/107288658",
+    "final_url": "https://www.abc.net.au/news/2026-10-23/large-methane-plumes-above-chevron-gorgon-project-investigation/107288658",
+    "og_title": "UN sends warning as satellite detects greenhouse gas plumes over Gorgon plant",
+    "og_description": "Satellite monitoring has detected huge plumes of methane above one of Australia's largest gas complexes, triggering a United Nations alert and enquiries by state authorities.",
+    "og_image": "https://live-production.wcms.abc-cdn.net.au/f645575e9496e545241c8680cf1d6a72?impolicy=wcms_watermark_news&cropH=521&cropW=926&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+    "og_site_name": "ABC News",
+    "via": "curl"
+  },
+  {
     "url": "https://www.amnesty.org/en/latest/news/2024/01/myanmar-new-data-suggests-military-still-importing-fuel-for-deadly-air-strikes-despite-sanctions/",
     "final_url": "https://www.amnesty.org/en/latest/news/2024/01/myanmar-new-data-suggests-military-still-importing-fuel-for-deadly-air-strikes-despite-sanctions/",
     "og_title": "Myanmar: New data suggests military still importing fuel for deadly air strikes despite sanctions",
