@@ -43,6 +43,15 @@
     "via": "requests"
   },
   {
+    "url": "https://insideclimatenews.org/news/28102026/texas-could-privatize-water-supply-with-israeli-company/",
+    "final_url": "https://insideclimatenews.org/news/28102026/texas-could-privatize-water-supply-with-israeli-company/",
+    "og_title": "How Texas Could End Up Paying an Israeli Company Billions for Water - Inside Climate News",
+    "og_description": "IDE Technologies hopes to revolutionize—and privatize—the state’s supply of water.",
+    "og_image": "https://insideclimatenews.org/wp-content/uploads/2026/10/IMG_5223.jpg",
+    "og_site_name": "Inside Climate News",
+    "via": "requests"
+  },
+  {
     "url": "https://insideclimatenews.org/news/31072025/cheniere-energy-lng-claims-massive-alternative-fuel-tax-credit/",
     "final_url": "https://insideclimatenews.org/news/31072025/cheniere-energy-lng-claims-massive-alternative-fuel-tax-credit/",
     "og_title": "The Biggest US LNG Exporter Is Claiming a Massive Tax Credit for Using Its Cargo as an ‘Alternative’ Fuel - Inside Climate News",
