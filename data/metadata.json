@@ -78,6 +78,10 @@
     "via": "requests"
   },
   {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNakZoek5jVWd4VFRQSUVESTlveGpRZHlTOXdFTUZUN19Vblc4Sy1iV2RyWl9rREk5bHFENjl2RklEcExlU3hnTk5xRGhvUURFenUyYXhiM2NDa1k2bUw5eFRWME11Z2NiLTgtX1NQVzJPanJFQUZTU3hqRENTaWRfcERHOGxpM29nYW41UVJPRXFfRnFIaEhVY3o5c083ZE55VXNPZEdtb1I1SWlyRzRvQ1JiNFdDdlFP?oc=5",
+    "error": "no metadata via requests"
+  },
+  {
     "url": "https://news.sky.com/video/162232tu-digi-oil-spill-forensics-stereo-v2-mp4-12844412",
     "error": "403 Client Error: Forbidden for url: https://news.sky.com/video/162232tu-digi-oil-spill-forensics-stereo-v2-mp4-12844412"
   },
