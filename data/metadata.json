@@ -43,6 +43,15 @@
     "via": "requests"
   },
   {
+    "url": "https://gasoutlook.com/long-read/the-looming-lng-bust/",
+    "final_url": "https://gasoutlook.com/long-read/the-looming-lng-bust/",
+    "og_title": "The looming LNG bust - Gas Outlook",
+    "og_description": "LNG prices have skyrocketed because of war in the Middle East. But a tidal wave of new LNG capacity is coming and the war may ultimately lead to a deep market downturn in the years ahead.",
+    "og_image": "https://gasoutlook.com/wp-content/uploads/2026/11/DSC05957-scaled.jpg",
+    "og_site_name": "Gas Outlook",
+    "via": "playwright"
+  },
+  {
     "url": "https://insideclimatenews.org/news/28102026/texas-could-privatize-water-supply-with-israeli-company/",
     "final_url": "https://insideclimatenews.org/news/28102026/texas-could-privatize-water-supply-with-israeli-company/",
     "og_title": "How Texas Could End Up Paying an Israeli Company Billions for Water - Inside Climate News",
