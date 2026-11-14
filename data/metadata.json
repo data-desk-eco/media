@@ -87,6 +87,10 @@
     "via": "requests"
   },
   {
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORDVBZEN4WlFsamtIUWNONm9RRDhEbVZEZ0h3Z0hETlZGQ3VTMDQxSDJCc2JQeV9Gb3dpaUp3QnpNblFnbjJyVDk1V3BWeExxR1I3bnZwaWt4bHNvY0dLUHVFdDNnOUsyZE1ybzMyVGZoQjJsSlpiQ2RpTEVkb1R4WA?oc=5",
+    "error": "no metadata via requests"
+  },
+  {
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN3IyQkJtMk9qd2hLa0kxT01fNENNQk9aT1NXdnpaUkNhUjBDNDgwNFp0SnJRVEhwUDZXWU1xakR2MVJHR1VoMDNSVWp5MS04ZlZnaHBDOVdNdDY4YTFkalJFZUY2OEtYYUVIZks2bW9GSXh2dk1VMmtENEUxSEZFci1MUQ?oc=5",
     "final_url": "https://www.source-material.org/toxic-fuel-uk-africa-nigeria-trafigura-vitol/",
     "og_title": "Toxic Trade – SourceMaterial",
