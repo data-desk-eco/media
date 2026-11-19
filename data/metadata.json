@@ -96,10 +96,6 @@
     "via": "requests"
   },
   {
-    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNREQwQ0RiUHl5OHNSYzFKT1lZdDcweFR0c2FDRHVjRmNQUm5wdXA1OW1zNzdxSDRaMmlyNmd2eWwzNlVjQWxCUWpEY1ZSclJkemRoMTVfR1l3T3FkZ0tfcXBWc3IyYUZZNm1HcXlNWlR3cUl2REZ1MFZBYkhnTzBfaVgyWklVZ2dfRWtnNUJtQ3N5b3A1dEUyM0ZIVG50SDVyMTdXenlGT2pPUTZ2aUxSVzJQZ1l3aURJa1RhZkdVdkJrLTlyRzYyQi1UTUk4TWlWQUFCTzdodjFHWWVKYmNGWTNGbGxoSEVnbDZwOW55cTdNQXlLZFJaRjMxVC1aQQ?oc=5",
-    "error": "no metadata via requests"
-  },
-  {
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORDVBZEN4WlFsamtIUWNONm9RRDhEbVZEZ0h3Z0hETlZGQ3VTMDQxSDJCc2JQeV9Gb3dpaUp3QnpNblFnbjJyVDk1V3BWeExxR1I3bnZwaWt4bHNvY0dLUHVFdDNnOUsyZE1ybzMyVGZoQjJsSlpiQ2RpTEVkb1R4WA?oc=5",
     "error": "no metadata via requests"
   },
@@ -299,6 +295,15 @@
     "og_site_name": "Le Monde.fr"
   },
   {
+    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/19/inside-deutsche-bank-derriere-la-facade-verte-les-coulisses-du-greenwashing-de-la-banque-allemande_6813239_4355770.html",
+    "final_url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/19/inside-deutsche-bank-derriere-la-facade-verte-les-coulisses-du-greenwashing-de-la-banque-allemande_6813239_4355770.html",
+    "og_title": "« Inside Deutsche Bank » : derrière la façade verte, les coulisses du greenwashing de la banque allemande",
+    "og_description": "Après l’accord de Paris en 2015, la banque a multiplié les annonces pour réduire son empreinte sur le climat. La fuite de données « Inside Deutsche Bank » montre que le groupe a contourné ou ignoré ses propres promesses à plusieurs reprises.",
+    "og_image": "https://img.lemde.fr/2026/11/18/0/0/3000/2000/1440/960/60/0/e5170dd_upload-1-gxlaqwqpfpro-db-08-greenwashing.jpg",
+    "og_site_name": "Le Monde.fr",
+    "via": "requests"
+  },
+  {
     "url": "https://www.noteworthy.ie/overseas-impact-soy-imports-deforestation-6248437-Dec2023/",
     "final_url": "https://www.thejournal.ie/overseas-impact-soy-imports-deforestation-6248437-Dec2023/?redirect_referer=noteworthy",
     "og_title": "‘Dining on deforestation’: Irish meat and dairy may be linked to Amazon forest clearance",
@@ -350,6 +355,15 @@
     "og_description": "Russland will seine Flüssiggasproduktion mindestens verdoppeln – Arctic LNG-2 heißt die Anlage, die dazu wesentlich beitragen soll. Jetzt wird klar: Westliche Unternehmen arbeiteten auch nach Kriegsbeginn an dem Projekt.",
     "og_image": "https://cdn.prod.www.spiegel.de/images/0c283b1f-3bca-48d3-a80c-7e830acf811b_w1200_r1.778_fpx48.55_fpy54.99.jpg",
     "og_site_name": null,
+    "via": "requests"
+  },
+  {
+    "url": "https://www.spiegel.de/wissenschaft/deutsche-bank-interne-unterlagen-zeigen-wie-die-bank-ihr-klimaversprechen-bricht-a-fa1ca821-1b15-4e03-ba36-b18fd76d0e51?giftToken=4bec20c1-f42c-48d5-a294-652d84f1a20c",
+    "final_url": "https://www.spiegel.de/wissenschaft/deutsche-bank-interne-unterlagen-zeigen-wie-die-bank-ihr-klimaversprechen-bricht-a-fa1ca821-1b15-4e03-ba36-b18fd76d0e51?giftToken=4bec20c1-f42c-48d5-a294-652d84f1a20c",
+    "og_title": "Interne Unterlagen zeigen, wie wenig die Klimaversprechen der Deutschen Bank wert sind",
+    "og_description": "Die Deutsche Bank gibt vor, nachhaltig zu sein – finanziert aber weiter Öl, Gas und Kohle. Interne Unterlagen zeigen, wie sie ihre eigenen Regeln umgeht und Schlupflöcher ausnutzt.",
+    "og_image": "https://cdn.prod.www.spiegel.de/images/d607dbdf-cd21-498f-b273-4bd84e47b42c_w1200_r1.778_fpx51_fpy56.png",
+    "og_site_name": "DER SPIEGEL",
     "via": "requests"
   },
   {
