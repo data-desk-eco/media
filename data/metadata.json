@@ -96,6 +96,10 @@
     "via": "requests"
   },
   {
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNREQwQ0RiUHl5OHNSYzFKT1lZdDcweFR0c2FDRHVjRmNQUm5wdXA1OW1zNzdxSDRaMmlyNmd2eWwzNlVjQWxCUWpEY1ZSclJkemRoMTVfR1l3T3FkZ0tfcXBWc3IyYUZZNm1HcXlNWlR3cUl2REZ1MFZBYkhnTzBfaVgyWklVZ2dfRWtnNUJtQ3N5b3A1dEUyM0ZIVG50SDVyMTdXenlGT2pPUTZ2aUxSVzJQZ1l3aURJa1RhZkdVdkJrLTlyRzYyQi1UTUk4TWlWQUFCTzdodjFHWWVKYmNGWTNGbGxoSEVnbDZwOW55cTdNQXlLZFJaRjMxVC1aQQ?oc=5",
+    "error": "no metadata via requests"
+  },
+  {
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORDVBZEN4WlFsamtIUWNONm9RRDhEbVZEZ0h3Z0hETlZGQ3VTMDQxSDJCc2JQeV9Gb3dpaUp3QnpNblFnbjJyVDk1V3BWeExxR1I3bnZwaWt4bHNvY0dLUHVFdDNnOUsyZE1ybzMyVGZoQjJsSlpiQ2RpTEVkb1R4WA?oc=5",
     "error": "no metadata via requests"
   },
