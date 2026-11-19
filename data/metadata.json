@@ -295,10 +295,10 @@
     "og_site_name": "Le Monde.fr"
   },
   {
-    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/19/inside-deutsche-bank-derriere-la-facade-verte-les-coulisses-du-greenwashing-de-la-banque-allemande_6813239_4355770.html",
-    "final_url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/19/inside-deutsche-bank-derriere-la-facade-verte-les-coulisses-du-greenwashing-de-la-banque-allemande_6813239_4355770.html",
-    "og_title": "« Inside Deutsche Bank » : derrière la façade verte, les coulisses du greenwashing de la banque allemande",
-    "og_description": "Après l’accord de Paris en 2015, la banque a multiplié les annonces pour réduire son empreinte sur le climat. La fuite de données « Inside Deutsche Bank » montre que le groupe a contourné ou ignoré ses propres promesses à plusieurs reprises.",
+    "url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/11/19/inside-deutsche-bank-the-german-bank-s-greenwashing_6784319_8.html",
+    "final_url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/11/19/inside-deutsche-bank-the-german-bank-s-greenwashing_6784319_8.html",
+    "og_title": "'Inside Deutsche Bank': The German bank's greenwashing",
+    "og_description": "After the Paris Agreement in 2015, the bank made multiple announcements about reducing its climate footprint. The 'Inside Deutsche Bank' data leak shows that the group repeatedly circumvented or ignored its own commitments.",
     "og_image": "https://img.lemde.fr/2026/11/18/0/0/3000/2000/1440/960/60/0/e5170dd_upload-1-gxlaqwqpfpro-db-08-greenwashing.jpg",
     "og_site_name": "Le Monde.fr",
     "via": "requests"
