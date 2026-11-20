@@ -10,6 +10,7 @@ Data Desk investigates environmental/climate issues: oil/gas, fossil fuels, poll
 
 1. Read `data/curated.json` (never modify)
 2. Read `data/discoveries.json` (your additions)
+2a. Read `data/excluded.json` (URLs removed by an editor — never re-add these, never modify)
 3. Read `data/search-results.json` (new Google News results)
 4. Add relevant new articles to discoveries (dedupe by URL)
 5. Write to `data/discoveries.json`

@@ -10,7 +10,8 @@ SELECT title, url, source, published, added
 FROM read_json('data/discoveries.json',
     columns={title: 'VARCHAR', url: 'VARCHAR', source: 'VARCHAR',
              published: 'DATE', added: 'VARCHAR'})
-WHERE url NOT IN (SELECT url FROM curated);
+WHERE url NOT IN (SELECT url FROM curated)
+  AND url NOT IN (SELECT url FROM read_json('data/excluded.json', columns={url: 'VARCHAR'}));
 
 CREATE OR REPLACE TABLE metadata AS
 SELECT url, og_title, og_description, og_image, og_site_name, final_url
