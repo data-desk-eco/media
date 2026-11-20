@@ -528,5 +528,14 @@
     "og_image": "https://zerocarbon-analytics.org/wp-content/uploads/2026/06/AdobeStock_687381056-scaled.jpeg",
     "og_site_name": "Zero Carbon Analytics",
     "via": "requests"
+  },
+  {
+    "url": "https://www.eluniversal.com.mx/periodismo-de-investigacion/documentos-filtrados-revelan-como-deutsche-bank-dio-la-espalda-a-sus-promesas-climaticas/",
+    "final_url": "https://www.eluniversal.com.mx/periodismo-de-investigacion/documentos-filtrados-revelan-como-deutsche-bank-dio-la-espalda-a-sus-promesas-climaticas/",
+    "og_title": "Documentos filtrados revelan cómo Deutsche Bank dio la espalda a sus promesas climáticas",
+    "og_description": "Hacia afuera, el Deutsche Bank se preocupó de adherir a los compromisos de reducción de emisiones para enfrentar el calentamiento global, pero los documentos internos muestran que esas promesas se relativizaban cuando se trataba de hacer buenos negocios",
+    "og_image": "https://www.eluniversal.com.mx/resizer/v2/ZUROFCBMANB6PCVS2QBUMEPPFM.jpg?auth=8ef7333ad17598874e4d9fa72e833c86048e1a5dec304c30e90b764aecc3837d",
+    "og_site_name": "El Universal",
+    "via": "requests"
   }
 ]
